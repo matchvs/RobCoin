@@ -1,0 +1,146 @@
+2018-06-09T02:36:53.459Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-09T02:36:53.461Z - normal: checking language setting...
+2018-06-09T02:36:53.461Z - normal: Language: zh
+2018-06-09T02:36:53.995Z - success: protocol editor-framework registered
+2018-06-09T02:36:53.995Z - success: protocol app registered
+2018-06-09T02:36:53.995Z - success: protocol theme registered
+2018-06-09T02:36:53.995Z - success: protocol packages registered
+2018-06-09T02:36:53.995Z - success: protocol unpack registerred
+2018-06-09T02:36:53.995Z - success: protocol disable-commonjs registerred
+2018-06-09T02:36:54.378Z - normal: connected!
+2018-06-09T02:36:54.379Z - normal: Check project /Users/mac/robCoin
+2018-06-09T02:36:54.380Z - normal: Initializing Cocos2d
+2018-06-09T02:36:54.553Z - normal: Initializing Asset Database
+2018-06-09T02:36:54.572Z - success: protocol uuid registerred
+2018-06-09T02:36:54.572Z - success: protocol db registerred
+2018-06-09T02:36:54.572Z - success: protocol thumbnail registerred
+2018-06-09T02:36:54.572Z - normal: Loading editor/builtin packages
+2018-06-09T02:36:54.583Z - success: anysdk loaded
+2018-06-09T02:36:54.653Z - success: assets loaded
+2018-06-09T02:36:54.655Z - success: builder loaded
+2018-06-09T02:36:54.656Z - success: cocos-analytics loaded
+2018-06-09T02:36:54.659Z - success: console loaded
+2018-06-09T02:36:54.661Z - success: hierarchy loaded
+2018-06-09T02:36:54.664Z - success: inspector loaded
+2018-06-09T02:36:54.665Z - success: keystore loaded
+2018-06-09T02:36:54.667Z - success: node-library loaded
+2018-06-09T02:36:54.668Z - success: package-asset loaded
+2018-06-09T02:36:54.669Z - success: preferences loaded
+2018-06-09T02:36:54.672Z - success: project-exporter loaded
+2018-06-09T02:36:54.683Z - success: project-importer loaded
+2018-06-09T02:36:54.685Z - success: project-settings loaded
+2018-06-09T02:36:54.688Z - success: ui-kit loaded
+2018-06-09T02:36:54.690Z - success: ui-grid loaded
+2018-06-09T02:36:54.693Z - success: scene loaded
+2018-06-09T02:36:54.694Z - success: sprite-editor loaded
+2018-06-09T02:36:54.699Z - success: store loaded
+2018-06-09T02:36:54.703Z - success: timeline loaded
+2018-06-09T02:36:54.703Z - normal: Loading builtin packages
+2018-06-09T02:36:54.706Z - success: asset-db-debugger loaded
+2018-06-09T02:36:54.707Z - success: color-picker loaded
+2018-06-09T02:36:54.709Z - success: package-manager loaded
+2018-06-09T02:36:54.712Z - success: sdkbox loaded
+2018-06-09T02:36:54.715Z - success: tester loaded
+2018-06-09T02:36:54.718Z - success: ui-kit-preview-extra loaded
+2018-06-09T02:36:54.720Z - success: ui-kit-preview loaded
+2018-06-09T02:36:54.722Z - success: ui-tree loaded
+2018-06-09T02:36:55.317Z - normal: Initializing project /Users/mac/robCoin
+2018-06-09T02:36:55.319Z - normal: Loading packages
+2018-06-09T02:36:55.326Z - normal: Watching packages
+2018-06-09T02:36:55.333Z - normal: Run Application
+2018-06-09T02:36:58.771Z - success: preview server running at http://localhost:7456
+2018-06-09T02:37:02.125Z - normal: 1.8.2
+2018-06-09T02:37:02.326Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/robCoin/temp/quick-scripts/assets/basic/Matchvs.js:1:348
+    at __define (/Users/mac/robCoin/temp/quick-scripts/assets/basic/Matchvs.js:17:25)
+    at /Users/mac/robCoin/temp/quick-scripts/assets/basic/Matchvs.js:37:13
+2018-06-09T03:15:01.262Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-09T03:58:30.445Z - warn: ProgressBar FILLED mode only works when barSprite's Type is FILLED!
+2018-06-09T04:35:35.981Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:61629
+2018-06-09T04:35:35.984Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:61633
+2018-06-09T04:35:35.984Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:61635
+2018-06-09T06:29:30.083Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:102187
+2018-06-09T06:29:30.085Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:102189
+2018-06-09T06:29:30.085Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:102192
+2018-06-09T06:29:30.086Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:102194
+2018-06-09T06:33:51.438Z - error: TypeError: Cannot read property 'parent' of null
+    at Object.recordCreateNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/scene-undo.js:1:7902)
+    at Async.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:7831)
+    at fn (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:746:34)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:1213:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:166:37
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:706:43
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:1209:30
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/engine-extends/asset-extends/texture.js:1:605
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:110:17)
+2018-06-09T06:34:57.574Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:107723
+2018-06-09T06:34:57.579Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:107726
+2018-06-09T06:34:57.580Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:107729
+2018-06-09T06:34:57.581Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:107731
+2018-06-09T06:34:57.582Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:107733
+2018-06-09T06:34:57.582Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:107735
+2018-06-09T06:56:30.129Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:124571
+2018-06-09T06:56:30.132Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:124574
+2018-06-09T07:27:58.286Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:147749
+2018-06-09T07:27:58.287Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:147752
+2018-06-09T07:27:58.288Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:147755
+2018-06-09T07:27:58.288Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:147757
+2018-06-09T07:27:58.288Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:147759
+2018-06-09T07:29:13.873Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:149247
+2018-06-09T07:29:13.877Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:149251
+2018-06-09T07:30:10.024Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:150163
+2018-06-09T07:30:10.025Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:150167
+2018-06-09T07:30:10.037Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:150169
+2018-06-09T07:32:11.638Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:151914
+2018-06-09T07:32:11.640Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:151918
+2018-06-09T07:32:11.647Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:151920
+2018-06-09T07:32:11.650Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:151922
+2018-06-09T07:33:15.790Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:153192
+2018-06-09T07:38:12.619Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:157398
+2018-06-09T08:15:17.811Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:186982
+2018-06-09T08:15:17.813Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:186986
+2018-06-09T08:15:17.814Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:186988
+2018-06-09T08:41:47.188Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:211313
+2018-06-09T08:41:47.193Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:211316
+2018-06-09T08:41:47.193Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:211318
+2018-06-09T08:48:41.013Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:221077
+2018-06-09T09:02:04.975Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:241899
+2018-06-09T09:02:24.844Z - warn: [timeline] animation clip missing: a768d927-9e57-4fe7-b1b6-e3e27932e1b9
+2018-06-09T09:02:24.844Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:242213
+2018-06-09T09:02:48.201Z - error: TypeError: Cannot read property 'renamePath' of undefined
+    at HTMLElement.<anonymous> (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/widget/node-view/node.js:1:638)
+2018-06-09T09:03:06.065Z - warn: Can not select this node in Animation Edit Mode
+2018-06-09T09:18:03.438Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:267179
+2018-06-09T09:18:03.439Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:267182
+2018-06-09T09:18:03.439Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:267184
+2018-06-12T01:09:57.987Z - warn: Can not select this node in Animation Edit Mode
+2018-06-12T01:11:04.473Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3633412
+2018-06-12T01:16:51.272Z - error: TypeError: Cannot read property '0' of null
+    at Tree.attach (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/manager/node.js:1:1156)
+    at Data.selectClip (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/manager/data.js:1:895)
+    at DC.clip.restoreClip.t (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/widget/play-bar/play-bar.js:1:822)
+    at cc.AssetLibrary.loadAsset (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/manager/clip.js:1:8930)
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:110:17)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:253:38
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/utils.js:67:21
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2018-06-12T01:16:51.294Z - error: TypeError: Cannot read property '0' of null
+    at Tree.attach (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/manager/node.js:1:1156)
+    at Data.selectClip (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/manager/data.js:1:895)
+    at DC.clip.restoreClip.t (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/timeline.js:1:4063)
+    at cc.AssetLibrary.loadAsset (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/manager/clip.js:1:8930)
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:110:17)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:253:38
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/utils.js:67:21
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2018-06-12T01:39:36.773Z - warn: Can not select this node in Animation Edit Mode

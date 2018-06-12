@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "textwo",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "scaleX": [
+        {
+          "frame": 0.016666666666666666,
+          "value": 1
+        },
+        {
+          "frame": 0.26666666666666666,
+          "value": 1.05
+        },
+        {
+          "frame": 0.3,
+          "value": 1.05
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": 0.9
+        },
+        {
+          "frame": 0.5,
+          "value": 1
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0.016666666666666666,
+          "value": 1
+        },
+        {
+          "frame": 0.26666666666666666,
+          "value": 1.05
+        },
+        {
+          "frame": 0.3,
+          "value": 1.05
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": 0.9
+        },
+        {
+          "frame": 0.5,
+          "value": 1
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        }
+      ]
+    }
+  },
+  "events": []
+}
