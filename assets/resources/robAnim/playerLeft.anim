@@ -1,6 +1,6 @@
 {
   "__type__": "cc.AnimationClip",
-  "_name": "playerleft",
+  "_name": "playerLeft",
   "_objFlags": 0,
   "_rawFiles": null,
   "_duration": 1.0166666666666666,
@@ -63,6 +63,15 @@
             {
               "frame": 0.7833333333333333,
               "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                35.4,
+                25
+              ]
             }
           ]
         },

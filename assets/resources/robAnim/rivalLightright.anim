@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "rivalLightright",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "me": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "f2bff8ba-3b6c-44e4-87c8-b01cf716c5df"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "46b4b6e3-f4f4-48c9-882a-cbc3d7b77e01"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "46b4b6e3-f4f4-48c9-882a-cbc3d7b77e01"
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__uuid__": "f2bff8ba-3b6c-44e4-87c8-b01cf716c5df"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

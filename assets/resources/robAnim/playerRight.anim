@@ -1,6 +1,6 @@
 {
   "__type__": "cc.AnimationClip",
-  "_name": "playerright",
+  "_name": "playerRight",
   "_objFlags": 0,
   "_rawFiles": null,
   "_duration": 1.0166666666666666,
@@ -69,15 +69,8 @@
             {
               "frame": 0,
               "value": [
-                -5.9,
-                -36.8
-              ]
-            },
-            {
-              "frame": 0.08333333333333333,
-              "value": [
-                -94.9,
-                -36.8
+                -47.1,
+                25
               ]
             }
           ]

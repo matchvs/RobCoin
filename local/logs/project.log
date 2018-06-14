@@ -144,3 +144,147 @@
     at _combinedTickCallback (internal/process/next_tick.js:73:7)
     at process._tickCallback (internal/process/next_tick.js:104:9)
 2018-06-12T01:39:36.773Z - warn: Can not select this node in Animation Edit Mode
+2018-06-12T02:10:28.437Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3719426
+2018-06-12T02:10:28.444Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3719428
+2018-06-12T02:10:28.445Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3719430
+2018-06-12T02:43:13.400Z - warn: Can not select this node in Animation Edit Mode
+2018-06-12T02:43:38.683Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3764134
+2018-06-12T02:43:38.686Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3764140
+2018-06-12T02:43:38.687Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3764144
+2018-06-12T02:56:51.813Z - error: Can't generate child path for node.
+    at Object.showTrajectoryGizmo (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:3665)
+    at Object.activate (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:4320)
+    at Object.activate (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:17882)
+    at HTMLElement.selection:activated (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14048)
+    at EventEmitter.e.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/polymer-utils.js:1:353)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:197:7)
+2018-06-12T03:16:40.261Z - error: TypeError: Cannot read property 'parent' of null
+    at Object.recordCreateNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/scene-undo.js:1:7902)
+    at Async.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:7831)
+    at fn (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:746:34)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:1213:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:166:37
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:706:43
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:1209:30
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/engine-extends/asset-extends/texture.js:1:605
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:110:17)
+2018-06-12T03:19:21.896Z - error: Can't generate child path for node.
+    at Object.showTrajectoryGizmo (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:3665)
+    at Object.activate (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:4320)
+    at Object.activate (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:17882)
+    at HTMLElement.selection:activated (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14048)
+    at EventEmitter.e.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/polymer-utils.js:1:353)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:197:7)
+2018-06-12T03:23:52.664Z - error: Can't generate child path for node.
+    at Object.showTrajectoryGizmo (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:3665)
+    at Object.activate (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:4320)
+    at Object.activate (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:17882)
+    at HTMLElement.selection:activated (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14048)
+    at EventEmitter.e.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/polymer-utils.js:1:353)
+    at emitThree (events.js:121:20)
+    at EventEmitter.emit (events.js:197:7)
+2018-06-12T03:46:53.739Z - warn: Can not select this node in Animation Edit Mode
+2018-06-12T03:46:54.138Z - warn: Can not select this node in Animation Edit Mode
+2018-06-12T03:49:12.867Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3866204
+2018-06-12T03:49:12.876Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3866207
+2018-06-12T03:49:12.879Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3866210
+2018-06-12T03:49:12.880Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3866212
+2018-06-12T03:50:01.013Z - warn: Error: [AssetLibrary] loading JSON or dependencies failed: Can not get asset url by uuid "dd8ad6a8-449a-43d2-a3ff-bef4d627d992", the asset may be deleted.
+2018-06-12T04:05:27.143Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3888842
+2018-06-12T04:05:27.145Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3888845
+2018-06-12T04:05:27.145Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3888847
+2018-06-12T04:06:14.080Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3889741
+2018-06-12T04:06:14.083Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3889743
+2018-06-12T04:06:39.818Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3890129
+2018-06-12T04:06:52.683Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3890252
+2018-06-12T06:03:35.591Z - warn: Can not select this node in Animation Edit Mode
+2018-06-12T06:03:50.502Z - warn: Can not select this node in Animation Edit Mode
+2018-06-12T06:12:33.885Z - info: 只有预制节点 "uiGamePanel" 及其子节点会被保存。
+2018-06-12T06:17:09.720Z - info: 只有预制节点 "uiGamePanel" 及其子节点会被保存。
+2018-06-12T06:25:37.072Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4037751
+2018-06-12T06:32:08.069Z - error: Widget target must be one of the parent nodes of it
+    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:338:24)
+    at visitNode (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/base-ui/CCWidgetManager.js:230:24)
+    at visitNode (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/base-ui/CCWidgetManager.js:247:13)
+    at visitNode (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/base-ui/CCWidgetManager.js:247:13)
+    at visitNode (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/base-ui/CCWidgetManager.js:247:13)
+    at TheClass.refreshScene (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/base-ui/CCWidgetManager.js:285:13)
+    at EventListeners.invoke (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/event/event-listeners.js:48:26)
+    at TheClass.proto.emit (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/event/event-target.js:443:27)
+    at TheClass.cc.DisplayLinkDirector.cc.Director.extend.mainLoop.CC_EDITOR._purgeDirectorInNextLoop (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/CCDirector.js:1444:14)
+2018-06-12T07:12:04.587Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082350
+2018-06-12T07:12:04.589Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082352
+2018-06-12T07:12:04.590Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082354
+2018-06-12T07:12:04.590Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082356
+2018-06-12T07:12:04.590Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082358
+2018-06-12T07:12:04.591Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082360
+2018-06-12T07:12:04.591Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082362
+2018-06-12T07:12:04.591Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082364
+2018-06-12T07:12:04.591Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082366
+2018-06-12T07:12:04.592Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082368
+2018-06-12T07:12:04.592Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082370
+2018-06-12T07:12:04.592Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082372
+2018-06-12T07:12:04.592Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082374
+2018-06-12T07:12:04.593Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082376
+2018-06-12T07:12:04.593Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082378
+2018-06-12T07:12:04.593Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082380
+2018-06-12T07:12:04.593Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082382
+2018-06-12T07:12:04.594Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082384
+2018-06-12T07:12:04.594Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082386
+2018-06-12T07:12:04.594Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082388
+2018-06-12T07:12:04.594Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082390
+2018-06-12T07:12:04.595Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082392
+2018-06-12T07:12:04.595Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082394
+2018-06-12T07:12:04.596Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082396
+2018-06-12T07:12:04.596Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082398
+2018-06-12T07:12:04.596Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082400
+2018-06-12T07:12:04.596Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082402
+2018-06-12T07:12:04.596Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082404
+2018-06-12T07:12:04.597Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082406
+2018-06-12T07:12:04.597Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082408
+2018-06-12T07:12:04.597Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082410
+2018-06-12T07:12:04.597Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082412
+2018-06-12T07:12:04.597Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082414
+2018-06-12T07:12:04.598Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082416
+2018-06-12T07:12:04.598Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082418
+2018-06-12T07:12:04.598Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082420
+2018-06-12T07:12:04.598Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082422
+2018-06-12T07:12:04.598Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082424
+2018-06-12T07:12:04.599Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082426
+2018-06-12T07:12:04.599Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082428
+2018-06-12T07:12:04.599Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082430
+2018-06-12T07:12:04.599Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082432
+2018-06-12T07:12:04.599Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082434
+2018-06-12T07:12:04.600Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082436
+2018-06-12T07:12:04.600Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082438
+2018-06-12T07:12:04.600Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082440
+2018-06-12T07:12:04.600Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082442
+2018-06-12T07:12:04.601Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082444
+2018-06-12T07:12:04.601Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082447
+2018-06-12T07:12:04.601Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082449
+2018-06-12T07:12:04.601Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082451
+2018-06-12T07:12:04.602Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082453
+2018-06-12T07:12:04.602Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4082455
+2018-06-12T07:12:04.635Z - error: Window "main" unresponsive: [object Object]
+    at BrowserWindow.Window.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:2470)
+    at emitOne (events.js:96:13)
+    at BrowserWindow.emit (events.js:191:7)
+2018-06-12T07:12:50.463Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4083072
+2018-06-12T07:12:50.464Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4083076
+2018-06-12T07:12:50.464Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4083078
+2018-06-12T07:12:50.464Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4083080
+2018-06-12T07:13:09.956Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4083240
+2018-06-12T07:15:37.798Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4087602
+2018-06-12T07:15:37.799Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4087606
+2018-06-12T07:23:35.166Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4102609
+2018-06-12T07:23:35.168Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4102613
+2018-06-12T07:23:35.171Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4102615
+2018-06-12T07:23:35.171Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4102617
+2018-06-12T07:23:35.186Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4102619
+2018-06-12T07:25:51.663Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4106165
+2018-06-12T07:25:51.668Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4106169
+2018-06-12T07:27:49.565Z - warn: Can not select this node in Animation Edit Mode
+2018-06-12T07:34:50.942Z - info: shutdown preview server
