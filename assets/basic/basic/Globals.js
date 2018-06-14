@@ -33,6 +33,8 @@ window.GLB = {
     SCORE_EVENT: "score",
     GO_EVENT: "go",
     ITEM_GET: "itemGet",// 缩小药
+    DIRECTION_START_EVENT: "direction_start_event",
+    DIRECTION_EVENT: "direction_event",
 
     channel: 'MatchVS',
     platform: 'alpha',

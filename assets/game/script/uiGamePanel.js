@@ -11,14 +11,7 @@ cc.Class({
     },
     onLoad() {
         this._super();
-        this.nodeDict["go"].on(cc.Node.EventType.TOUCH_START, this.sendGoMsg, this);
-        this.nodeDict["shootButton"].on(cc.Node.EventType.TOUCH_START, this.sendFireMsg, this);
-        this.defenseBtn = this.nodeDict["defenseButton"].getComponent(cc.Button);
-        this.defenseBtn.enableAutoGrayEffect = true;
-        this.defenseBtn.node.on(cc.Node.EventType.TOUCH_START, this.sendSlateMsg, this);
-        this.lackBulletAnim = this.nodeDict["lackAmmunition"].getComponent(cc.Animation);
-        this.cartridgeBullets = [].concat(this.nodeDict["cartridge"].children);
-        this.bulletCnt = this.cartridgeBullets.length;
+        this.nodeDict["go"].on("click", this.sendGoMsg, this);
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.refreshSlateBtn, this.refreshSlateBtn, this);
@@ -42,11 +35,10 @@ cc.Class({
         }
     },
 
-    sendGoMsg(direction) {
+    sendGoMsg() {
         if (Game.GameManager.gameState === GameState.Play) {
             mvs.engine.sendFrameEvent(JSON.stringify({
-                action: GLB.DIRECTION,
-                direction: direction
+                action: GLB.DIRECTION_EVENT,
             }));
         }
     },

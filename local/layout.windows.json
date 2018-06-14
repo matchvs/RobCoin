@@ -45,21 +45,21 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 422,
+                    "height": 593,
                     "type": "panel",
-                    "width": 466
+                    "width": 684
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-                    "height": 422,
+                    "height": 593,
                     "type": "panel",
-                    "width": 422
+                    "width": 204
                   }
                 ],
-                "height": 422,
+                "height": 593,
                 "type": "dock-h",
                 "width": 891
               },
@@ -69,7 +69,7 @@
                   "console",
                   "timeline"
                 ],
-                "height": 436.984375,
+                "height": 266,
                 "type": "panel",
                 "width": 891
               }
@@ -98,58 +98,6 @@
         "hierarchy",
         "assets",
         "scene"
-      ]
-    },
-    "window-1528944649838": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 680,
-      "y": 228,
-      "width": 584,
-      "height": 548,
-      "layout": {
-        "children": [
-          {
-            "active": 0,
-            "children": [
-              "project-settings"
-            ],
-            "height": 526,
-            "type": "panel",
-            "width": 584
-          }
-        ],
-        "type": "dock-v"
-      },
-      "panels": [
-        "project-settings"
-      ]
-    },
-    "window-1528945915618": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 609,
-      "y": 134,
-      "width": 404,
-      "height": 528,
-      "layout": {
-        "children": [
-          {
-            "active": 0,
-            "children": [
-              "package-asset.export"
-            ],
-            "height": 506,
-            "type": "panel",
-            "width": 404
-          }
-        ],
-        "type": "dock-v"
-      },
-      "panels": [
-        "package-asset.export"
       ]
     }
   },

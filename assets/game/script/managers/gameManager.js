@@ -280,6 +280,10 @@ cc.Class({
                 var result = mvs.engine.setFrameSync(GLB.FRAME_RATE);
                 if (result !== 0) {
                     console.log('设置帧同步率失败,错误码:' + result);
+                } else {
+                    mvs.engine.sendFrameEvent(JSON.stringify({
+                        action: GLB.DIRECTION_START_EVENT,
+                    }));
                 }
             }
         }
@@ -292,45 +296,29 @@ cc.Class({
             }
             var info = rsp.frameItems[i];
             var cpProto = JSON.parse(info.cpProto);
-            if (info.cpProto.indexOf(GLB.DIRECTION) >= 0) {
+            if (info.cpProto.indexOf(GLB.DIRECTION_START_EVENT) >= 0) {
+                if (GLB.isRoomOwner) {
+                    Game.PlayerManager.self.setDirect(DirectState.Right);
+                    Game.PlayerManager.rival.setDirect(DirectState.Left);
+                } else {
+                    Game.PlayerManager.self.setDirect(DirectState.Left);
+                    Game.PlayerManager.rival.setDirect(DirectState.Right);
+                }
+            }
+            if (info.cpProto.indexOf(GLB.DIRECTION_EVENT) >= 0) {
                 if (GLB.userInfo.id === info.srcUserID) {
-                    Game.PlayerManager.self.setDirect(cpProto.direction);
+                    Game.PlayerManager.self.changeDirection();
                 } else {
-                    Game.PlayerManager.rival.setDirect(cpProto.direction);
+                    Game.PlayerManager.rival.changeDirection();
                 }
-            }
-            if (info.cpProto.indexOf(GLB.FIRE) >= 0) {
-                if (GLB.userInfo.id === info.srcUserID) {
-                    Game.PlayerManager.self.fire();
-                } else {
-                    Game.PlayerManager.rival.fire();
-                }
-            }
-
-            if (info.cpProto.indexOf(GLB.HURT) >= 0) {
-                if (GLB.userInfo.id === cpProto.playerId) {
-                    Game.PlayerManager.self.hurt();
-                } else {
-                    Game.PlayerManager.rival.hurt();
-                }
-            }
-            if (info.cpProto.indexOf(GLB.SHOOT_GUN_ITEM) >= 0) {
-                Game.ItemManager.itemSpawn(cpProto.itemId);
             }
             if (info.cpProto.indexOf(GLB.ITEM_GET) >= 0) {
                 Game.ItemManager.itemGet(cpProto.itemId, cpProto.playerId);
             }
-            if (info.cpProto.indexOf(GLB.SPAWN_SLATE) >= 0) {
-                Game.SlateManager.spawnSlate(info.srcUserID);
-            }
-
-            if (info.cpProto.indexOf(GLB.SLATE_HITTING) >= 0) {
-                Game.SlateManager.hitSlate(cpProto.slateId);
-            }
         }
-        Game.PlayerManager.self.move();
-        Game.PlayerManager.rival.move();
-        Game.ItemManager.move();
+        Game.PlayerManager.self.rotationSelf();
+        Game.PlayerManager.rival.rotationSelf();
+        // Game.ItemManager.move();
     },
 
     sendReadyMsg: function() {
