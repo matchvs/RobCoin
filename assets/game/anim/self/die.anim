@@ -8,8 +8,6 @@
   "speed": 0.6,
   "wrapMode": 1,
   "curveData": {
-    "paths": {
-      "me": {
         "props": {
           "scaleX": [
             {
@@ -75,8 +73,6 @@
               }
             ]
           }
-        }
-      }
     }
   },
   "events": []
