@@ -1914,7 +1914,7 @@
       "__id__": 48
     },
     "_enabled": true,
-    "rotationSpeed": 100,
+    "rotationSpeed": 120,
     "leftFootNode": {
       "__id__": 49
     },
@@ -2196,7 +2196,7 @@
       "__id__": 57
     },
     "_enabled": true,
-    "rotationSpeed": 100,
+    "rotationSpeed": 120,
     "leftFootNode": {
       "__id__": 58
     },
