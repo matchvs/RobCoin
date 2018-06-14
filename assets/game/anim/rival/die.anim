@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "die",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 60,
+  "speed": 0.6,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "me": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.7,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 0.1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.7,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 0.1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.95,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0.36666666666666664,
+              "value": 0
+            },
+            {
+              "frame": 0.43333333333333335,
+              "value": 10
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": -10
+            },
+            {
+              "frame": 0.6333333333333333,
+              "value": 0
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "7863d474-873f-4320-8beb-ae3e401f1168"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

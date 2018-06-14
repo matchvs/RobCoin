@@ -2,6 +2,7 @@ window.clientEvent = {
     eventType: {
         openUI: "openUI",
         closeUI: "closeUI",
+        refreshSlateBtn: "refreshSlateBtn",
         roundStart: "roundStart",
         roundOver: "roundOver",
         gameStart: "gameStart",
@@ -14,6 +15,7 @@ window.clientEvent = {
         joinRoomNotify: "joinRoomNotify",
         leaveRoomResponse: "leaveRoomResponse",
         leaveRoomNotify: "leaveRoomNotify",
+        leaveRoomMedNotify: "leaveRoomMedNotify",
         joinOverResponse: "joinOverResponse",
         createRoomResponse: "createRoomResponse",
         getRoomListResponse: "getRoomListResponse",

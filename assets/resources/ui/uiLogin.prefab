@@ -208,8 +208,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 534,
-      "height": 124
+      "width": 524,
+      "height": 114
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -330,7 +330,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "xiaojilogo",
+    "_name": "logo",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -363,8 +363,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 456,
-      "height": 290
+      "width": 442,
+      "height": 187
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -391,10 +391,10 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+      "__uuid__": "3d9427bc-66e9-468c-a247-6bbb75f7221c"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -403,7 +403,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_atlas": null
@@ -700,9 +700,7 @@
       "__id__": 1
     },
     "_enabled": true,
-    "showAnimation": 0,
-    "hideAnimation": 0,
-    "isUseMask": false
+    "isTop": false
   },
   {
     "__type__": "cc.PrefabInfo",
