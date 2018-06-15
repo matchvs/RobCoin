@@ -1,6 +1,6 @@
 {
   "__type__": "cc.AnimationClip",
-  "_name": "rivalOnleft",
+  "_name": "onLeft",
   "_objFlags": 0,
   "_rawFiles": null,
   "_duration": 0.016666666666666666,
@@ -8,18 +8,36 @@
   "speed": 1,
   "wrapMode": 1,
   "curveData": {
-        "comps": {
-          "cc.Sprite": {
-            "spriteFrame": [
-              {
-                "frame": 0,
-                "value": {
-                  "__uuid__": "fdef989f-3866-447a-b6dd-4eeddcd5b241"
-                }
-              }
-            ]
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "fdef989f-3866-447a-b6dd-4eeddcd5b241"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        }
+      ],
+      "scale": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1,
+            "y": 1
           }
         }
+      ]
+    }
   },
   "events": []
 }

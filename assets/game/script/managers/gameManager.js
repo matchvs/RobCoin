@@ -297,19 +297,21 @@ cc.Class({
             var info = rsp.frameItems[i];
             var cpProto = JSON.parse(info.cpProto);
             if (info.cpProto.indexOf(GLB.DIRECTION_START_EVENT) >= 0) {
-                if (GLB.isRoomOwner) {
-                    Game.PlayerManager.self.setDirect(DirectState.Right);
-                    Game.PlayerManager.rival.setDirect(DirectState.Left);
-                } else {
-                    Game.PlayerManager.self.setDirect(DirectState.Left);
-                    Game.PlayerManager.rival.setDirect(DirectState.Right);
-                }
+                Game.PlayerManager.self.setDirect(DirectState.Right);
+                Game.PlayerManager.rival.setDirect(DirectState.Right);
             }
             if (info.cpProto.indexOf(GLB.DIRECTION_EVENT) >= 0) {
                 if (GLB.userInfo.id === info.srcUserID) {
                     Game.PlayerManager.self.changeDirection();
                 } else {
                     Game.PlayerManager.rival.changeDirection();
+                }
+            }
+            if (info.cpProto.indexOf(GLB.DEAD_EVENT) >= 0) {
+                if (GLB.userInfo.id === cpProto.playerId) {
+                    Game.PlayerManager.self.reborn();
+                } else {
+                    Game.PlayerManager.rival.reborn();
                 }
             }
             if (info.cpProto.indexOf(GLB.ITEM_GET) >= 0) {

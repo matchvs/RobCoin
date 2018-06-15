@@ -1,320 +1,61 @@
-2018-06-14T03:14:17.724Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-14T03:14:17.727Z - normal: checking language setting...
-2018-06-14T03:14:17.727Z - normal: Language: zh
-2018-06-14T03:14:18.465Z - success: protocol editor-framework registered
-2018-06-14T03:14:18.465Z - success: protocol app registered
-2018-06-14T03:14:18.465Z - success: protocol theme registered
-2018-06-14T03:14:18.465Z - success: protocol packages registered
-2018-06-14T03:14:18.465Z - success: protocol unpack registerred
-2018-06-14T03:14:18.466Z - success: protocol disable-commonjs registerred
-2018-06-14T03:14:19.108Z - normal: connected!
-2018-06-14T03:14:19.111Z - normal: Check project /Users/mac/MatchVsGames/robCoin
-2018-06-14T03:14:19.113Z - normal: Initializing Cocos2d
-2018-06-14T03:14:19.280Z - normal: Initializing Asset Database
-2018-06-14T03:14:19.310Z - success: protocol uuid registerred
-2018-06-14T03:14:19.310Z - success: protocol db registerred
-2018-06-14T03:14:19.310Z - success: protocol thumbnail registerred
-2018-06-14T03:14:19.310Z - normal: Loading editor/builtin packages
-2018-06-14T03:14:19.327Z - success: anysdk loaded
-2018-06-14T03:14:19.425Z - success: assets loaded
-2018-06-14T03:14:19.429Z - success: builder loaded
-2018-06-14T03:14:19.432Z - success: cocos-analytics loaded
-2018-06-14T03:14:19.436Z - success: console loaded
-2018-06-14T03:14:19.468Z - success: fb-instant-games loaded
-2018-06-14T03:14:19.472Z - success: hierarchy loaded
-2018-06-14T03:14:19.476Z - success: inspector loaded
-2018-06-14T03:14:19.478Z - success: keystore loaded
-2018-06-14T03:14:19.481Z - success: node-library loaded
-2018-06-14T03:14:19.483Z - success: package-asset loaded
-2018-06-14T03:14:19.484Z - success: preferences loaded
-2018-06-14T03:14:19.488Z - success: project-exporter loaded
-2018-06-14T03:14:19.505Z - success: project-importer loaded
-2018-06-14T03:14:19.510Z - success: project-settings loaded
-2018-06-14T03:14:19.516Z - success: ui-kit loaded
-2018-06-14T03:14:19.528Z - success: ui-grid loaded
-2018-06-14T03:14:19.535Z - success: scene loaded
-2018-06-14T03:14:19.536Z - success: sprite-editor loaded
-2018-06-14T03:14:19.542Z - success: store loaded
-2018-06-14T03:14:19.548Z - success: timeline loaded
-2018-06-14T03:14:19.548Z - normal: Loading builtin packages
-2018-06-14T03:14:19.553Z - success: asset-db-debugger loaded
-2018-06-14T03:14:19.555Z - success: color-picker loaded
-2018-06-14T03:14:19.560Z - success: package-manager loaded
-2018-06-14T03:14:19.561Z - success: qqplay-adapter loaded
-2018-06-14T03:14:19.583Z - success: sdkbox loaded
-2018-06-14T03:14:19.590Z - success: tester loaded
-2018-06-14T03:14:19.594Z - success: ui-kit-preview-extra loaded
-2018-06-14T03:14:19.597Z - success: ui-kit-preview loaded
-2018-06-14T03:14:19.600Z - success: ui-tree loaded
-2018-06-14T03:14:19.602Z - success: weapp-adapter loaded
-2018-06-14T03:14:20.479Z - normal: Initializing project /Users/mac/MatchVsGames/robCoin
-2018-06-14T03:14:20.481Z - normal: Loading packages
-2018-06-14T03:14:20.494Z - success: plugin-matchvs loaded
-2018-06-14T03:14:20.494Z - normal: Watching packages
-2018-06-14T03:14:20.627Z - normal: Run Application
-2018-06-14T03:14:27.550Z - success: preview server running at http://localhost:7457
-2018-06-14T03:14:33.783Z - normal: 1.9.2
-2018-06-14T03:15:03.599Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-14T03:15:38.681Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-14T03:19:38.335Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
-
-2018-06-14T05:47:57.164Z - normal: Introduced global variable while editing: i
-2018-06-14T05:47:57.166Z - normal: Introduced global variable while editing: l
-2018-06-14T05:47:57.605Z - warn: The Asset used by component "cc.Sprite" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T05:47:57.606Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T05:47:57.606Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T05:47:57.607Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
-
-2018-06-14T05:47:57.677Z - warn: The Asset used by component "cc.Sprite" is missing. Detailed information:
-Node path: "key_defenseButton"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T05:47:57.678Z - warn: The Asset used by component "cc.Button" is missing. Detailed information:
-Node path: "key_defenseButton"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T05:47:57.679Z - warn: The Asset used by component "cc.Button" is missing. Detailed information:
-Node path: "key_defenseButton"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T05:47:57.679Z - warn: The Asset used by component "cc.Button" is missing. Detailed information:
-Node path: "key_defenseButton"
-Missing uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
-
-2018-06-14T06:05:16.431Z - warn: The Asset used by component "cc.Sprite" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:05:16.435Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:05:16.435Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:05:16.435Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
-
-2018-06-14T06:12:25.860Z - warn: The Asset used by component "cc.Sprite" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:12:25.862Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:12:25.862Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:12:25.862Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
-
-2018-06-14T06:12:53.912Z - warn: The Asset used by component "cc.Sprite" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:12:53.912Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:12:53.913Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:12:53.913Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
-
-2018-06-14T06:13:02.742Z - warn: The Asset used by component "cc.Sprite" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:13:02.743Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:13:02.743Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "53f4fe75-4857-49e2-a438-136134efeebd"
-
-2018-06-14T06:13:02.743Z - warn: The Asset used by component "cc.Button" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/buttons/key_defenseButton"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "24dd237f-8360-41df-ac06-ab727f1562bd"
-
-2018-06-14T06:34:21.500Z - failed: [db-task][import] uuid collision, the uuid for /Users/mac/MatchVsGames/robCoin/assets/resources/gameClips/BGM.mp3 is already in used by /Users/mac/MatchVsGames/robCoin/assets/resources/gameClips/bgm.mp3. Assigning a new uuid.
-2018-06-14T06:34:21.545Z - error: Error: The id already added in the tree: ccaada48-1678-4387-9ad3-f835bf768895
-    at HTMLElement.addItem (packages://ui-tree/widget/id-tree.js:36:15)
-    at HTMLElement.addNewItemById (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/assets-tree.js:1:5207)
-    at s.forEach.e (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/panel.js:1:4578)
-    at Array.forEach (native)
-    at HTMLElement.asset-db:assets-created (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/panel.js:1:4402)
-    at EventEmitter.e.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/polymer-utils.js:1:353)
-    at emitTwo (events.js:106:13)
-    at EventEmitter.emit (events.js:194:7)
-2018-06-14T06:34:46.502Z - failed: [db-task][import] path collision, the path for 3fe27011-0643-48a5-a3fa-7cd53257be1a is already in used by ccaada48-1678-4387-9ad3-f835bf768895. Assigning a new path.
-2018-06-14T06:52:25.094Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:197156
-2018-06-14T06:53:00.084Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:197214
-2018-06-14T06:53:00.085Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:197216
-2018-06-14T06:53:00.085Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:197217
-2018-06-14T06:53:00.086Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:197218
-2018-06-14T06:53:00.086Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:197219
-2018-06-14T06:53:00.090Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:197220
-2018-06-14T06:54:46.666Z - failed: Task [animation-change-current-clip] run error, stop running other tasks.
- TypeError: Cannot read property 'duration' of null
-    at Object._changeCurrentClip (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:3027)
-    at _queue.Async.queue (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/tasks.js:1:551)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:987:13
-    at Immediate.process (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:953:21)
-    at runCallback (timers.js:672:20)
-    at tryOnImmediate (timers.js:645:5)
-    at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-06-14T06:55:36.908Z - error: TypeError: Cannot read property 'value' of null
-    at selected.forEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6837)
-    at Array.forEach (native)
-    at EventEmitter.advice.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6744)
-    at emitOne (events.js:101:20)
-    at EventEmitter.emit (events.js:191:7)
-    at Editor.UI.startDrag (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/preview-row.js:1:3292)
-    at HTMLDocument.g (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:3992)
-2018-06-14T06:55:38.748Z - error: TypeError: Cannot read property 'value' of null
-    at selected.forEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6837)
-    at Array.forEach (native)
-    at EventEmitter.advice.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6744)
-    at emitOne (events.js:101:20)
-    at EventEmitter.emit (events.js:191:7)
-    at Editor.UI.startDrag (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/preview-row.js:1:3292)
-    at HTMLDocument.g (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:3992)
-2018-06-14T06:55:40.595Z - error: TypeError: Cannot read property 'value' of null
-    at selected.forEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6837)
-    at Array.forEach (native)
-    at EventEmitter.advice.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6744)
-    at emitOne (events.js:101:20)
-    at EventEmitter.emit (events.js:191:7)
-    at Editor.UI.startDrag (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/preview-row.js:1:3292)
-    at HTMLDocument.g (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:3992)
-2018-06-14T06:55:51.546Z - error: TypeError: Cannot read property 'value' of null
-    at selected.forEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6837)
-    at Array.forEach (native)
-    at EventEmitter.advice.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6744)
-    at emitOne (events.js:101:20)
-    at EventEmitter.emit (events.js:191:7)
-    at Editor.UI.startDrag (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/preview-row.js:1:3292)
-    at HTMLDocument.g (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:3992)
-2018-06-14T06:55:56.793Z - error: TypeError: Cannot read property 'value' of null
-    at selected.forEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6837)
-    at Array.forEach (native)
-    at EventEmitter.advice.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6744)
-    at emitOne (events.js:101:20)
-    at EventEmitter.emit (events.js:191:7)
-    at Editor.UI.startDrag (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/preview-row.js:1:3292)
-    at HTMLDocument.g (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:3992)
-2018-06-14T06:57:03.656Z - error: TypeError: Cannot read property 'value' of null
-    at selected.forEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6837)
-    at Array.forEach (native)
-    at EventEmitter.advice.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6744)
-    at emitOne (events.js:101:20)
-    at EventEmitter.emit (events.js:191:7)
-    at Editor.UI.startDrag.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/prop-row.js:1:4090)
-    at HTMLDocument.g (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:3992)
-2018-06-14T06:57:10.982Z - error: TypeError: Cannot read property 'value' of null
-    at selected.forEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6837)
-    at Array.forEach (native)
-    at EventEmitter.advice.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/home.js:1:6744)
-    at emitOne (events.js:101:20)
-    at EventEmitter.emit (events.js:191:7)
-    at Editor.UI.startDrag.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/timeline/panel/component/prop-row.js:1:4090)
-    at HTMLDocument.g (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:3992)
-2018-06-14T06:57:23.173Z - failed: Task [animation-change-current-clip] run error, stop running other tasks.
- TypeError: Cannot read property 'duration' of null
-    at Object._changeCurrentClip (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:3027)
-    at _queue.Async.queue (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/tasks.js:1:551)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:987:13
-    at Immediate.process (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:953:21)
-    at runCallback (timers.js:672:20)
-    at tryOnImmediate (timers.js:645:5)
-    at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-06-14T06:58:50.879Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:204843
-2018-06-14T08:28:43.391Z - normal: Introduced global variable while editing: i
-2018-06-14T08:28:43.393Z - normal: Introduced global variable while editing: l
-2018-06-14T08:38:02.010Z - error: Can't generate child path for node.
-    at Object.showTrajectoryGizmo (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:3828)
-    at Object.activate (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:4483)
-    at Object.activate (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:17882)
-    at HTMLElement.selection:activated (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14236)
-    at EventEmitter.e.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/polymer-utils.js:1:353)
-    at emitThree (events.js:121:20)
-    at EventEmitter.emit (events.js:197:7)
-2018-06-14T09:44:02.447Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/robCoin/assets/game/script/player.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/robCoin/assets/game/script/player.js: Unexpected token (47:8)
-  45 |             var offsetPosX = 
-  46 | 
-> 47 |         } else if (this.direction === DirectState.Left) {
-     |         ^
-  48 |             this.node.anchorX = 0.25;
-  49 |             this.node.anchorY = 0.6;
-  50 |         } else {
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
-    at Parser.pp$1.parseVar (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2340:24)
-    at Parser.pp$1.parseVarStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2169:8)
-2018-06-14T11:14:53.406Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/robCoin/assets/game/script/player.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/robCoin/assets/game/script/player.js: Unexpected token (53:11)
-  51 |     setDirect(dir) {
-  52 |         this.direction = dir;
-> 53 |         if()
-     |            ^
-  54 | 
-  55 |         var dir = this.direction === DirectState.None ? 0 :
-  56 |             this.direction === DirectState.Left ? 1 : -1;
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
-    at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
-    at Parser.pp$3.parseParenExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3789:18)
+2018-06-15T01:24:43.081Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-15T01:24:43.085Z - normal: checking language setting...
+2018-06-15T01:24:43.085Z - normal: Language: zh
+2018-06-15T01:24:43.830Z - success: protocol editor-framework registered
+2018-06-15T01:24:43.830Z - success: protocol app registered
+2018-06-15T01:24:43.830Z - success: protocol theme registered
+2018-06-15T01:24:43.830Z - success: protocol packages registered
+2018-06-15T01:24:43.830Z - success: protocol unpack registerred
+2018-06-15T01:24:43.831Z - success: protocol disable-commonjs registerred
+2018-06-15T01:24:44.287Z - normal: connected!
+2018-06-15T01:24:44.290Z - normal: Check project /Users/mac/MatchVsGames/robCoin
+2018-06-15T01:24:44.292Z - normal: Initializing Cocos2d
+2018-06-15T01:24:44.510Z - normal: Initializing Asset Database
+2018-06-15T01:24:44.541Z - success: protocol uuid registerred
+2018-06-15T01:24:44.542Z - success: protocol db registerred
+2018-06-15T01:24:44.542Z - success: protocol thumbnail registerred
+2018-06-15T01:24:44.542Z - normal: Loading editor/builtin packages
+2018-06-15T01:24:44.562Z - success: anysdk loaded
+2018-06-15T01:24:44.671Z - success: assets loaded
+2018-06-15T01:24:44.674Z - success: builder loaded
+2018-06-15T01:24:44.676Z - success: cocos-analytics loaded
+2018-06-15T01:24:44.680Z - success: console loaded
+2018-06-15T01:24:44.708Z - success: fb-instant-games loaded
+2018-06-15T01:24:44.712Z - success: hierarchy loaded
+2018-06-15T01:24:44.716Z - success: inspector loaded
+2018-06-15T01:24:44.717Z - success: keystore loaded
+2018-06-15T01:24:44.721Z - success: node-library loaded
+2018-06-15T01:24:44.722Z - success: package-asset loaded
+2018-06-15T01:24:44.724Z - success: preferences loaded
+2018-06-15T01:24:44.727Z - success: project-exporter loaded
+2018-06-15T01:24:44.740Z - success: project-importer loaded
+2018-06-15T01:24:44.743Z - success: project-settings loaded
+2018-06-15T01:24:44.747Z - success: ui-kit loaded
+2018-06-15T01:24:44.751Z - success: ui-grid loaded
+2018-06-15T01:24:44.755Z - success: scene loaded
+2018-06-15T01:24:44.756Z - success: sprite-editor loaded
+2018-06-15T01:24:44.759Z - success: store loaded
+2018-06-15T01:24:44.765Z - success: timeline loaded
+2018-06-15T01:24:44.765Z - normal: Loading builtin packages
+2018-06-15T01:24:44.774Z - success: asset-db-debugger loaded
+2018-06-15T01:24:44.775Z - success: color-picker loaded
+2018-06-15T01:24:44.779Z - success: package-manager loaded
+2018-06-15T01:24:44.780Z - success: qqplay-adapter loaded
+2018-06-15T01:24:44.786Z - success: sdkbox loaded
+2018-06-15T01:24:44.791Z - success: tester loaded
+2018-06-15T01:24:44.794Z - success: ui-kit-preview-extra loaded
+2018-06-15T01:24:44.799Z - success: ui-kit-preview loaded
+2018-06-15T01:24:44.802Z - success: ui-tree loaded
+2018-06-15T01:24:44.803Z - success: weapp-adapter loaded
+2018-06-15T01:24:45.718Z - normal: Initializing project /Users/mac/MatchVsGames/robCoin
+2018-06-15T01:24:45.721Z - normal: Loading packages
+2018-06-15T01:24:45.732Z - success: plugin-matchvs loaded
+2018-06-15T01:24:45.732Z - normal: Watching packages
+2018-06-15T01:24:45.838Z - normal: Run Application
+2018-06-15T01:24:46.467Z - success: preview server running at http://localhost:7456
+2018-06-15T01:24:52.084Z - normal: 1.9.2
+2018-06-15T01:29:18.241Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:5909
+2018-06-15T03:20:34.488Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:135392
+2018-06-15T03:20:34.490Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:135393
+2018-06-15T03:28:34.554Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:141107
+2018-06-15T03:28:34.557Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:141109

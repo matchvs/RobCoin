@@ -35,6 +35,7 @@ window.GLB = {
     ITEM_GET: "itemGet",// 缩小药
     DIRECTION_START_EVENT: "direction_start_event",
     DIRECTION_EVENT: "direction_event",
+    DEAD_EVENT: "dead_event",
 
     channel: 'MatchVS',
     platform: 'alpha',

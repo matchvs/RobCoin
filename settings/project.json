@@ -13,32 +13,12 @@
     [
       false,
       false,
-      true
-    ],
-    [
       false,
-      true,
-      false,
-      true,
-      true,
-      true,
       true
     ],
     [
       false,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
@@ -47,8 +27,29 @@
     ],
     [
       false,
-      false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       false,
       false,
@@ -83,11 +84,11 @@
   "group-list": [
     "default",
     "item",
-    "bullet",
+    "trap",
     "player",
-    "other",
-    "slate",
-    "ground"
+    "1",
+    "2",
+    "3"
   ],
   "simulator-orientation": false,
   "simulator-resolution": {
@@ -95,6 +96,5 @@
     "width": 960
   },
   "use-customize-simulator": false,
-  "use-project-simulator-setting": false,
-  "start-scene": "current"
+  "use-project-simulator-setting": false
 }
