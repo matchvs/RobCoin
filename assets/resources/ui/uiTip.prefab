@@ -455,11 +455,11 @@
     },
     "_enabled": true,
     "_defaultClip": {
-      "__uuid__": "f8c29568-3367-45a7-956e-8474d8bd9f77"
+      "__uuid__": "d0711e7d-78b4-4a95-acc7-988dcb4606e6"
     },
     "_clips": [
       {
-        "__uuid__": "f8c29568-3367-45a7-956e-8474d8bd9f77"
+        "__uuid__": "d0711e7d-78b4-4a95-acc7-988dcb4606e6"
       }
     ],
     "playOnLoad": true

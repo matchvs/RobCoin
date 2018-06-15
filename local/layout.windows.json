@@ -45,7 +45,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 501,
+                    "height": 593,
                     "type": "panel",
                     "width": 684
                   },
@@ -54,12 +54,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 501,
+                    "height": 593,
                     "type": "panel",
                     "width": 204
                   }
                 ],
-                "height": 501,
+                "height": 593,
                 "type": "dock-h",
                 "width": 891
               },
@@ -69,7 +69,7 @@
                   "console",
                   "timeline"
                 ],
-                "height": 358,
+                "height": 266,
                 "type": "panel",
                 "width": 891
               }

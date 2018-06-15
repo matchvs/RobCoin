@@ -59,3 +59,10 @@
 2018-06-15T03:20:34.490Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:135393
 2018-06-15T03:28:34.554Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:141107
 2018-06-15T03:28:34.557Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:141109
+2018-06-15T07:25:58.339Z - warn: The Asset used by component "cc.Animation" in prefab "uiTip.prefab" is missing. Detailed information:
+Node path: "uiTip"
+Asset url: "db://assets/resources/ui/uiTip.prefab"
+Missing uuid: "f8c29568-3367-45a7-956e-8474d8bd9f77"
+
+2018-06-15T07:29:52.645Z - normal: Introduced global variable while editing: i
+2018-06-15T07:29:52.647Z - normal: Introduced global variable while editing: l
