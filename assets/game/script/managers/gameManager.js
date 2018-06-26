@@ -7,7 +7,6 @@ cc.Class({
         cc.director.getCollisionManager().enabled = true;
         clientEvent.init();
         dataFunc.loadConfigs();
-        clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
     },
 
@@ -295,6 +294,8 @@ cc.Class({
                 return;
             }
             var info = rsp.frameItems[i];
+            console.log(info.cpProto);
+
             var cpProto = JSON.parse(info.cpProto);
             if (info.cpProto.indexOf(GLB.DIRECTION_START_EVENT) >= 0) {
                 Game.PlayerManager.self.setDirect(DirectState.Right);
@@ -314,13 +315,45 @@ cc.Class({
                     Game.PlayerManager.rival.reborn();
                 }
             }
+            if (info.cpProto.indexOf(GLB.ITEM_SPAWN) >= 0) {
+                Game.ItemManager.itemSpawn(cpProto);
+            }
             if (info.cpProto.indexOf(GLB.ITEM_GET) >= 0) {
-                Game.ItemManager.itemGet(cpProto.itemId, cpProto.playerId);
+                // 默认缩小药--
+                if (cpProto.playerId === GLB.userInfo.id) {
+                    //自己得到，对手缩小--
+                    Game.PlayerManager.rival.tinySelf();
+                } else {
+                    Game.PlayerManager.self.tinySelf();
+                }
+                clientEvent.dispatch(clientEvent.eventType.itemGet);
+            }
+            if (info.cpProto.indexOf(GLB.ITEM_EFFECT_DIS) >= 0) {
+                // 缩小药,恢复正常--
+                if (cpProto.playerId === GLB.userInfo.id) {
+                    Game.PlayerManager.self.normalSelf();
+                } else {
+                    Game.PlayerManager.rival.normalSelf();
+                }
+            }
+            if (info.cpProto.indexOf(GLB.TREASURE_SPAWN) >= 0) {
+                Game.ItemManager.treasureSpawn(cpProto);
+            }
+            if (info.cpProto.indexOf(GLB.TREASURE_GET) >= 0) {
+                if (cpProto.playerId === GLB.userInfo.id) {
+                    this.selfScore++;
+                } else {
+                    this.rivalScore++;
+                }
+                clientEvent.dispatch(clientEvent.eventType.scoreGet, {playerId: cpProto.playerId});
+                clientEvent.dispatch(clientEvent.eventType.treasureGet, {playerId: cpProto.playerId});
+                if (this.selfScore > 4 || this.rivalScore > 4) {
+                    this.gameOver();
+                }
             }
         }
         Game.PlayerManager.self.rotationSelf();
         Game.PlayerManager.rival.rotationSelf();
-        // Game.ItemManager.move();
     },
 
     sendReadyMsg: function() {
@@ -350,6 +383,8 @@ cc.Class({
     startGame: function() {
         this.readyCnt = 0;
         this.isRivalLeave = false;
+        this.selfScore = 0;
+        this.rivalScore = 0;
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
                 this.sendReadyMsg();
@@ -367,7 +402,6 @@ cc.Class({
 
 
     onDestroy() {
-        clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
     }
 });

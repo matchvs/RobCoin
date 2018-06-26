@@ -7,7 +7,9 @@ window.clientEvent = {
         roundOver: "roundOver",
         gameStart: "gameStart",
         gameOver: "gameOver",
-        fire: "fire",
+        scoreGet: "scoreGet",
+        treasureGet: "treasureGet",
+        itemGet: "itemGet",
 
         initResponse: "initResponse",
         errorResponse: "errorResponse",

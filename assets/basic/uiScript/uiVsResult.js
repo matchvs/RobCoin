@@ -15,7 +15,7 @@ cc.Class({
     },
 
     start() {
-        var isLose = Game.GameManager.isRivalLeave ? false : Game.PlayerManager.self.heart < Game.PlayerManager.rival.heart;
+        var isWin = Game.GameManager.selfScore > Game.GameManager.rivalScore;
 
         this.player = this.nodeDict["player"].getComponent("resultPlayerIcon");
         this.player.setData(Game.PlayerManager.self.playerId);
@@ -25,16 +25,16 @@ cc.Class({
         this.nodeDict["score"].active = true;
         this.nodeDict["quit"].on("click", this.quit, this);
 
-        this.nodeDict["lose"].active = isLose;
-        this.nodeDict["win"].active = !isLose;
+        this.nodeDict["lose"].active = !isWin;
+        this.nodeDict["win"].active = isWin;
 
-        if (!isLose) {
+        if (isWin) {
             cc.audioEngine.play(this.victoryClip, false, 1);
         } else {
             cc.audioEngine.play(this.loseClip, false, 1);
         }
-        this.nodeDict["playerScore"].getComponent(cc.Label).string = 3 - Game.PlayerManager.rival.heart;
-        this.nodeDict["rivalScore"].getComponent(cc.Label).string = 3 - Game.PlayerManager.self.heart;
+        this.nodeDict["playerScore"].getComponent(cc.Label).string = Game.GameManager.selfScore;
+        this.nodeDict["rivalScore"].getComponent(cc.Label).string = Game.GameManager.rivalScore;
     },
 
     quit: function() {

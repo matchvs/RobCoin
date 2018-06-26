@@ -3,60 +3,103 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        treasureBox: cc.Prefab
+        potion: cc.Prefab,
+        treasureBox: cc.Prefab,
+        flyRivalPoint: cc.Node,
+        flySelfPoint: cc.Node,
+        clickAudio: {
+            default: null,
+            url: cc.AudioClip
+        },
     },
 
     onLoad() {
         Game.ItemManager = this;
-        this.itemId = 0;
-        this.items = [];
+        this.item = null;
+        this.treasure = null;
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
-        clientEvent.on(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+        clientEvent.on(clientEvent.eventType.itemGet, this.itemGet, this);
+        clientEvent.on(clientEvent.eventType.treasureGet, this.treasureGet, this);
     },
 
     roundStart() {
-        this.scheduleItemSpawn();
-    },
-
-    scheduleItemSpawn() {
-        clearInterval(this.scheduleItemId);
-        this.scheduleItemId = setInterval(function() {
-            if (Game.GameManager.gameState === GameState.Over || !GLB.isRoomOwner) {
-                return;
-            }
-            if (this.items.length === 0) {
+        setTimeout(function() {
+            if (GLB.isRoomOwner) {
+                var posX = dataFunc.randomNumArea(-230, -80, 80, 230);
+                var posY = dataFunc.randomNumArea(-500, -250, 80, 200);
                 mvs.engine.sendFrameEvent(JSON.stringify({
-                    action: GLB.SHOOT_GUN_ITEM,
-                    itemId: this.itemId++
+                    action: GLB.ITEM_SPAWN,
+                    posX: posX,
+                    posY: posY
                 }));
             }
-        }.bind(this), 6000);
+        }, 8000);
+        setTimeout(function() {
+            if (GLB.isRoomOwner) {
+                var posX = dataFunc.randomNumArea(-230, -80, 80, 230);
+                var posY = dataFunc.randomNumArea(-500, -250, 80, 180);
+                if (Game.GameManager.selfScore === 0 && Game.GameManager.rivalScore === 0) {
+                    posX = 0;
+                    posY = 200;
+                }
+                mvs.engine.sendFrameEvent(JSON.stringify({
+                    action: GLB.TREASURE_SPAWN,
+                    posX: posX,
+                    posY: posY
+                }));
+            }
+        }, 4000);
     },
 
-    itemSpawn(itemId) {
-        var item = cc.instantiate(this.treasureBox);
-        item.parent = this.node;
-        item.position = cc.v2(0, 0);
-        var shootGun = item.getComponent("treasureBox");
-        shootGun.init(itemId);
-        this.items.push(shootGun);
+    itemGet() {
+        this.item.destroy();
+        setTimeout(function() {
+            if (GLB.isRoomOwner) {
+                var posX = dataFunc.randomNumArea(-230, -80, 80, 230);
+                var posY = dataFunc.randomNumArea(-500, -250, 80, 200);
+                mvs.engine.sendFrameEvent(JSON.stringify({
+                    action: GLB.ITEM_SPAWN,
+                    posX: posX,
+                    posY: posY
+                }));
+            }
+        }, 8000);
     },
 
-    itemGet(itemId, playerId) {
-
-        var index = this.items.findIndex(function(temp) {
-            return temp.itemId === itemId;
-        });
-        if (index >= 0) {
-            var item = this.items[index].getComponent("treasureBox");
-            item.explosion(playerId);
-            this.items.splice(index, 1);
-        }
+    itemSpawn(cpProto) {
+        this.item = cc.instantiate(this.potion);
+        this.item.parent = this.node;
+        this.item.position = cc.v2(cpProto.posX, cpProto.posY);
     },
 
-    roundOver() {
-        clearInterval(this.scheduleItemId);
+    treasureGet(cpProto) {
+        var temp = this.treasure;
+        temp.getComponent(cc.BoxCollider).enabled = false;
+        var pos = cpProto.playerId === GLB.userInfo.id ? this.flySelfPoint.position : this.flyRivalPoint.position;
+        var action = cc.moveTo(0.2, pos);
+        var finished = cc.callFunc(function() {
+            temp.destroy();
+        }.bind(this));
+        var myAction = cc.sequence(action, finished);
+        temp.runAction(myAction);
+        setTimeout(function() {
+            if (GLB.isRoomOwner) {
+                var posX = dataFunc.randomNumArea(-230, -80, 80, 230);
+                var posY = dataFunc.randomNumArea(-500, -250, 80, 200);
+                mvs.engine.sendFrameEvent(JSON.stringify({
+                    action: GLB.TREASURE_SPAWN,
+                    posX: posX,
+                    posY: posY
+                }));
+            }
+        }, 8000);
+    },
+
+    treasureSpawn(cpProto) {
+        this.treasure = cc.instantiate(this.treasureBox);
+        this.treasure.parent = this.node;
+        this.treasure.position = cc.v2(cpProto.posX, cpProto.posY);
     },
 
     gameOver() {
@@ -65,8 +108,9 @@ cc.Class({
 
     onDestroy() {
         clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
-        clientEvent.off(clientEvent.eventType.roundOver, this.roundOver, this);
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
+        clientEvent.off(clientEvent.eventType.itemGet, this.itemGet, this);
+        clientEvent.off(clientEvent.eventType.treasureGet, this.treasureGet, this);
     }
 
 });

@@ -6,7 +6,7 @@
   "_duration": 1,
   "sample": 60,
   "speed": 1.2,
-  "wrapMode": 2,
+  "wrapMode": "2",
   "curveData": {
     "props": {
       "opacity": [

@@ -17,6 +17,25 @@ window.dataFunc = {
     uiPanelAnimationClips: {}
 };
 
+// [Min,Max],可以取到最大值与最小值
+dataFunc.randomNum = function(Min, Max) {
+    var Range = Max - Min;
+    var Rand = Math.random();
+    var num = Min + Math.round(Rand * Range);
+    return num;
+};
+// 针对[Max1, Min2]中间的数不可取
+dataFunc.randomNumArea = function(Min1, Max1, Min2, Max2) {
+    var num1 = dataFunc.randomNum(Min1, Max1);
+    var num2 = dataFunc.randomNum(Min2, Max2);
+    var rand = Math.random();
+    if (rand < 0.5) {
+        return num1;
+    } else {
+        return num2;
+    }
+};
+
 dataFunc.getTable = function(tableName) {
     return dataFunc.csvTables[tableName];
 };

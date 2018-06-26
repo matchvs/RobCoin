@@ -23,10 +23,14 @@ cc.Class({
         deadEffectPrefab: {
             default: null,
             type: cc.Prefab
+        },
+        guideLineNode: {
+            default: null,
+            type: cc.Node
         }
     },
 
-    onLoad() {
+    init(playerId) {
         this.targetRotation = this.node.rotation;
         this.anim = this.node.getComponent(cc.Animation);
         this.orginAnchorX = 0.5;
@@ -36,25 +40,33 @@ cc.Class({
         this.deadFloorY = -110;
         this.deadCeilY = 730;
         this.deadLimitX = 270;
-    },
-
-    init(playerId) {
+        this.trapDetectLeft = this.leftFootNode.getComponent("trapDetect");
+        this.trapDetectRight = this.rightFootNode.getComponent("trapDetect");
         this.playerId = playerId;
         this.isDead = false;
         this.direction = DirectState.None;
+        this.trapDetectLeft.init(this.playerId);
+        this.trapDetectRight.init(this.playerId);
+        this.stepCnt = 0;
     },
 
-    dead() {
-        var boom = cc.instantiate(this.tankBoom);
-        boom.parent = this.node;
-        boom.position = cc.v2(0, 0);
-        cc.audioEngine.play(this.deadClip, false, 1);
-        if (GLB.isRoomOwner) {
-            var msg = {
-                action: GLB.GAME_OVER_EVENT
-            };
-            Game.GameManager.sendEventEx(msg);
-        }
+    // 缩小--
+    tinySelf() {
+        clearTimeout(this.tinyId);
+        this.node.scale = 0.35;
+        this.tinyId = setTimeout(function() {
+            this.node.scale = 1;
+            if (GLB.isRoomOwner && Game.GameManager.gameState !== GameState.Over) {
+                mvs.engine.sendFrameEvent(JSON.stringify({
+                    action: GLB.ITEM_EFFECT_DIS,
+                    playerId: this.playerId
+                }));
+            }
+        }.bind(this), 6000);
+    },
+
+    normalSelf() {
+        this.node.scale = 1;
     },
 
     rotationSelf() {
@@ -99,10 +111,21 @@ cc.Class({
         if (this.direction !== DirectState.None) {
             this.spawnEffect();
         }
-        console.log(this.node.position);
         if ((Math.abs(this.node.x) > this.deadLimitX || this.node.y > this.deadCeilY || this.node.y < this.deadFloorY)) {
             this.dead();
+        } else {
+            var trapDetect = dir === DirectState.Right ? this.trapDetectRight : this.trapDetectLeft;
+            if (trapDetect.isInTrap) {
+                this.dead();
+            }
         }
+        // 重置判定
+        this.trapDetectLeft.isInTrap = false;
+        this.trapDetectRight.isInTrap = false;
+        this.trapDetectLeft.node.active = dir === DirectState.Right;
+        this.trapDetectRight.node.active = dir === DirectState.Left;
+        // 引导线--
+        this.stepCnt++;
     },
 
 
@@ -126,6 +149,7 @@ cc.Class({
 
     reborn() {
         this.isDead = false;
+        this.node.scale = 1;
         if (GLB.isRoomOwner) {
             if (this.playerId === GLB.userInfo.id) {
                 this.node.position = Game.PlayerManager.player1StartPos;

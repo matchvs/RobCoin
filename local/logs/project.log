@@ -1,68 +1,56 @@
-2018-06-15T01:24:43.081Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-15T01:24:43.085Z - normal: checking language setting...
-2018-06-15T01:24:43.085Z - normal: Language: zh
-2018-06-15T01:24:43.830Z - success: protocol editor-framework registered
-2018-06-15T01:24:43.830Z - success: protocol app registered
-2018-06-15T01:24:43.830Z - success: protocol theme registered
-2018-06-15T01:24:43.830Z - success: protocol packages registered
-2018-06-15T01:24:43.830Z - success: protocol unpack registerred
-2018-06-15T01:24:43.831Z - success: protocol disable-commonjs registerred
-2018-06-15T01:24:44.287Z - normal: connected!
-2018-06-15T01:24:44.290Z - normal: Check project /Users/mac/MatchVsGames/robCoin
-2018-06-15T01:24:44.292Z - normal: Initializing Cocos2d
-2018-06-15T01:24:44.510Z - normal: Initializing Asset Database
-2018-06-15T01:24:44.541Z - success: protocol uuid registerred
-2018-06-15T01:24:44.542Z - success: protocol db registerred
-2018-06-15T01:24:44.542Z - success: protocol thumbnail registerred
-2018-06-15T01:24:44.542Z - normal: Loading editor/builtin packages
-2018-06-15T01:24:44.562Z - success: anysdk loaded
-2018-06-15T01:24:44.671Z - success: assets loaded
-2018-06-15T01:24:44.674Z - success: builder loaded
-2018-06-15T01:24:44.676Z - success: cocos-analytics loaded
-2018-06-15T01:24:44.680Z - success: console loaded
-2018-06-15T01:24:44.708Z - success: fb-instant-games loaded
-2018-06-15T01:24:44.712Z - success: hierarchy loaded
-2018-06-15T01:24:44.716Z - success: inspector loaded
-2018-06-15T01:24:44.717Z - success: keystore loaded
-2018-06-15T01:24:44.721Z - success: node-library loaded
-2018-06-15T01:24:44.722Z - success: package-asset loaded
-2018-06-15T01:24:44.724Z - success: preferences loaded
-2018-06-15T01:24:44.727Z - success: project-exporter loaded
-2018-06-15T01:24:44.740Z - success: project-importer loaded
-2018-06-15T01:24:44.743Z - success: project-settings loaded
-2018-06-15T01:24:44.747Z - success: ui-kit loaded
-2018-06-15T01:24:44.751Z - success: ui-grid loaded
-2018-06-15T01:24:44.755Z - success: scene loaded
-2018-06-15T01:24:44.756Z - success: sprite-editor loaded
-2018-06-15T01:24:44.759Z - success: store loaded
-2018-06-15T01:24:44.765Z - success: timeline loaded
-2018-06-15T01:24:44.765Z - normal: Loading builtin packages
-2018-06-15T01:24:44.774Z - success: asset-db-debugger loaded
-2018-06-15T01:24:44.775Z - success: color-picker loaded
-2018-06-15T01:24:44.779Z - success: package-manager loaded
-2018-06-15T01:24:44.780Z - success: qqplay-adapter loaded
-2018-06-15T01:24:44.786Z - success: sdkbox loaded
-2018-06-15T01:24:44.791Z - success: tester loaded
-2018-06-15T01:24:44.794Z - success: ui-kit-preview-extra loaded
-2018-06-15T01:24:44.799Z - success: ui-kit-preview loaded
-2018-06-15T01:24:44.802Z - success: ui-tree loaded
-2018-06-15T01:24:44.803Z - success: weapp-adapter loaded
-2018-06-15T01:24:45.718Z - normal: Initializing project /Users/mac/MatchVsGames/robCoin
-2018-06-15T01:24:45.721Z - normal: Loading packages
-2018-06-15T01:24:45.732Z - success: plugin-matchvs loaded
-2018-06-15T01:24:45.732Z - normal: Watching packages
-2018-06-15T01:24:45.838Z - normal: Run Application
-2018-06-15T01:24:46.467Z - success: preview server running at http://localhost:7456
-2018-06-15T01:24:52.084Z - normal: 1.9.2
-2018-06-15T01:29:18.241Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:5909
-2018-06-15T03:20:34.488Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:135392
-2018-06-15T03:20:34.490Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:135393
-2018-06-15T03:28:34.554Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:141107
-2018-06-15T03:28:34.557Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:141109
-2018-06-15T07:25:58.339Z - warn: The Asset used by component "cc.Animation" in prefab "uiTip.prefab" is missing. Detailed information:
-Node path: "uiTip"
-Asset url: "db://assets/resources/ui/uiTip.prefab"
-Missing uuid: "f8c29568-3367-45a7-956e-8474d8bd9f77"
-
-2018-06-15T07:29:52.645Z - normal: Introduced global variable while editing: i
-2018-06-15T07:29:52.647Z - normal: Introduced global variable while editing: l
+2018-06-26T12:57:17.727Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-26T12:57:17.730Z - normal: checking language setting...
+2018-06-26T12:57:17.731Z - normal: Language: zh
+2018-06-26T12:57:18.460Z - success: protocol editor-framework registered
+2018-06-26T12:57:18.460Z - success: protocol app registered
+2018-06-26T12:57:18.460Z - success: protocol theme registered
+2018-06-26T12:57:18.461Z - success: protocol packages registered
+2018-06-26T12:57:18.461Z - success: protocol unpack registerred
+2018-06-26T12:57:18.461Z - success: protocol disable-commonjs registerred
+2018-06-26T12:57:18.755Z - normal: connected!
+2018-06-26T12:57:18.756Z - normal: Check project /Users/mac/MatchVsGames/robCoin
+2018-06-26T12:57:18.757Z - normal: Initializing Cocos2d
+2018-06-26T12:57:18.969Z - normal: Initializing Asset Database
+2018-06-26T12:57:19.001Z - success: protocol uuid registerred
+2018-06-26T12:57:19.001Z - success: protocol db registerred
+2018-06-26T12:57:19.001Z - success: protocol thumbnail registerred
+2018-06-26T12:57:19.001Z - normal: Loading editor/builtin packages
+2018-06-26T12:57:19.018Z - success: anysdk loaded
+2018-06-26T12:57:19.131Z - success: assets loaded
+2018-06-26T12:57:19.134Z - success: builder loaded
+2018-06-26T12:57:19.136Z - success: cocos-analytics loaded
+2018-06-26T12:57:19.141Z - success: console loaded
+2018-06-26T12:57:19.173Z - success: fb-instant-games loaded
+2018-06-26T12:57:19.177Z - success: hierarchy loaded
+2018-06-26T12:57:19.181Z - success: inspector loaded
+2018-06-26T12:57:19.182Z - success: keystore loaded
+2018-06-26T12:57:19.187Z - success: node-library loaded
+2018-06-26T12:57:19.189Z - success: package-asset loaded
+2018-06-26T12:57:19.191Z - success: preferences loaded
+2018-06-26T12:57:19.194Z - success: project-exporter loaded
+2018-06-26T12:57:19.209Z - success: project-importer loaded
+2018-06-26T12:57:19.213Z - success: project-settings loaded
+2018-06-26T12:57:19.220Z - success: ui-kit loaded
+2018-06-26T12:57:19.225Z - success: ui-grid loaded
+2018-06-26T12:57:19.229Z - success: scene loaded
+2018-06-26T12:57:19.230Z - success: sprite-editor loaded
+2018-06-26T12:57:19.233Z - success: store loaded
+2018-06-26T12:57:19.240Z - success: timeline loaded
+2018-06-26T12:57:19.240Z - normal: Loading builtin packages
+2018-06-26T12:57:19.245Z - success: asset-db-debugger loaded
+2018-06-26T12:57:19.246Z - success: color-picker loaded
+2018-06-26T12:57:19.249Z - success: package-manager loaded
+2018-06-26T12:57:19.251Z - success: qqplay-adapter loaded
+2018-06-26T12:57:19.257Z - success: sdkbox loaded
+2018-06-26T12:57:19.261Z - success: tester loaded
+2018-06-26T12:57:19.265Z - success: ui-kit-preview-extra loaded
+2018-06-26T12:57:19.268Z - success: ui-kit-preview loaded
+2018-06-26T12:57:19.272Z - success: ui-tree loaded
+2018-06-26T12:57:19.275Z - success: weapp-adapter loaded
+2018-06-26T12:57:20.226Z - normal: Initializing project /Users/mac/MatchVsGames/robCoin
+2018-06-26T12:57:20.227Z - normal: Loading packages
+2018-06-26T12:57:20.240Z - success: plugin-matchvs loaded
+2018-06-26T12:57:20.240Z - normal: Watching packages
+2018-06-26T12:57:20.364Z - normal: Run Application
+2018-06-26T12:57:21.334Z - success: preview server running at http://localhost:7456
+2018-06-26T12:57:27.579Z - normal: 1.9.2

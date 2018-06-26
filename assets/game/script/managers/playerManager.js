@@ -3,7 +3,9 @@ cc.Class({
 
     properties: {
         selfNode: cc.Node,
-        rivalNode: cc.Node
+        rivalNode: cc.Node,
+        guideCircleNode: cc.Node,
+        guideMeNode: cc.Node
     },
 
     onLoad() {
@@ -18,6 +20,22 @@ cc.Class({
         if (!GLB.isRoomOwner) {
             this.selfNode.position = this.player2StartPos;
             this.rivalNode.position = this.player1StartPos;
+        }
+    },
+
+    update(dt) {
+        if (this.self.stepCnt > 5) {
+            this.guideCircleNode.active = false;
+            this.guideMeNode.active = false;
+        } else {
+            if (this.self.stepCnt % 2 === 0) {
+                this.guideCircleNode.scaleX = -1;
+            } else {
+                this.guideCircleNode.scaleX = 1;
+            }
+            this.guideMeNode.position = this.self.node.position;
+            this.guideCircleNode.position = this.self.node.position;
+            this.guideCircleNode.rotation = this.self.node.rotation;
         }
     }
 });

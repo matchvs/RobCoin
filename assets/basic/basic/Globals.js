@@ -29,10 +29,14 @@ window.GLB = {
     GAME_START_EVENT: "gameStart",
     GAME_OVER_EVENT: "gameOver",
     READY: "ready",
-    ROUND_START: "roundStar",
+    ROUND_START: "roundStart",
     SCORE_EVENT: "score",
     GO_EVENT: "go",
+    ITEM_SPAWN: "itemSpawn",//
     ITEM_GET: "itemGet",// 缩小药
+    ITEM_EFFECT_DIS: "item_effect_dis",// 药水消失效果
+    TREASURE_SPAWN: "treasure_spawn",// 获取宝箱
+    TREASURE_GET: "treasureGet",// 获取宝箱
     DIRECTION_START_EVENT: "direction_start_event",
     DIRECTION_EVENT: "direction_event",
     DEAD_EVENT: "dead_event",

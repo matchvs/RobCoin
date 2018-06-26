@@ -29,13 +29,14 @@
       false,
       true,
       true,
-      false
+      false,
+      true
     ],
     [
       false,
       false,
       false,
-      false,
+      true,
       false
     ],
     [
@@ -75,7 +76,6 @@
     "RichText",
     "MotionStreak",
     "DragonBones",
-    "Physics",
     "Camera",
     "Native NetWork"
   ],
@@ -86,7 +86,7 @@
     "item",
     "trap",
     "player",
-    "1",
+    "treasure",
     "2",
     "3"
   ],
@@ -96,5 +96,6 @@
     "width": 960
   },
   "use-customize-simulator": false,
-  "use-project-simulator-setting": false
+  "use-project-simulator-setting": false,
+  "start-scene": "current"
 }

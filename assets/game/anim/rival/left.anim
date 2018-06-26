@@ -27,16 +27,6 @@
       }
     },
     "props": {
-      "scale": [
-        {
-          "frame": 0,
-          "value": {
-            "__type__": "cc.Vec2",
-            "x": 1,
-            "y": 1
-          }
-        }
-      ],
       "opacity": [
         {
           "frame": 0,
