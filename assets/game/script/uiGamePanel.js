@@ -46,7 +46,7 @@ cc.Class({
         this.nodeDict["exit"].on("click", this.exit, this);
         this.anim =  this.nodeDict["scoreGetEffect"].getComponent(cc.Animation);
         this.anim.repeatCount = 3;
-        this.bgmId = cc.audioEngine.play(this.bgmAudio, true, 0.5);
+        this.bgmId = cc.audioEngine.play(this.bgmAudio, true, 0.2);
     },
 
     leaveRoom(data) {

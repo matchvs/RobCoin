@@ -4,7 +4,11 @@ cc.Class({
 
     properties: {
         rotationSpeed: 0,
-        deadClip: {
+        deadOutsideClip: {
+            default: null,
+            url: cc.AudioClip
+        },
+        deadHoleClip: {
             default: null,
             url: cc.AudioClip
         },
@@ -23,10 +27,6 @@ cc.Class({
         deadEffectPrefab: {
             default: null,
             type: cc.Prefab
-        },
-        guideLineNode: {
-            default: null,
-            type: cc.Node
         }
     },
 
@@ -112,10 +112,12 @@ cc.Class({
             this.spawnEffect();
         }
         if ((Math.abs(this.node.x) > this.deadLimitX || this.node.y > this.deadCeilY || this.node.y < this.deadFloorY)) {
+            cc.audioEngine.play(this.deadOutsideClip, false, 1);
             this.dead();
         } else {
             var trapDetect = dir === DirectState.Right ? this.trapDetectRight : this.trapDetectLeft;
             if (trapDetect.isInTrap) {
+                cc.audioEngine.play(this.deadHoleClip, false, 1);
                 this.dead();
             }
         }

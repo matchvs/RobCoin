@@ -2708,7 +2708,7 @@
         "__uuid__": "3e17beb2-37ad-412e-9975-23497cf00098"
       }
     ],
-    "playOnLoad": false
+    "playOnLoad": true
   },
   {
     "__type__": "9d5f3ZY5/RK/Ii3XDRXaXsO",
@@ -2719,6 +2719,12 @@
     },
     "_enabled": true,
     "rotationSpeed": 120,
+    "deadOutsideClip": {
+      "__uuid__": "864d1422-3b53-48b7-9362-e99a23177c7c"
+    },
+    "deadHoleClip": {
+      "__uuid__": "51e12155-262d-4e77-845a-d3982587fdff"
+    },
     "leftFootNode": {
       "__id__": 72
     },
@@ -2730,9 +2736,6 @@
     },
     "deadEffectPrefab": {
       "__uuid__": "df1be32e-bfd2-4abf-8c66-e378c513f49c"
-    },
-    "guideLineNode": {
-      "__id__": 52
     }
   },
   {
@@ -3081,6 +3084,12 @@
     },
     "_enabled": true,
     "rotationSpeed": 120,
+    "deadOutsideClip": {
+      "__uuid__": "864d1422-3b53-48b7-9362-e99a23177c7c"
+    },
+    "deadHoleClip": {
+      "__uuid__": "51e12155-262d-4e77-845a-d3982587fdff"
+    },
     "leftFootNode": {
       "__id__": 85
     },
@@ -3092,8 +3101,7 @@
     },
     "deadEffectPrefab": {
       "__uuid__": "df1be32e-bfd2-4abf-8c66-e378c513f49c"
-    },
-    "guideLineNode": null
+    }
   },
   {
     "__type__": "cc.PrefabInfo",

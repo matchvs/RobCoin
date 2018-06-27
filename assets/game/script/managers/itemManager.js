@@ -52,8 +52,18 @@ cc.Class({
         }, 4000);
     },
 
-    itemGet() {
-        this.item.destroy();
+    itemGet(cpProto) {
+        var temp = this.item;
+        temp.getComponent(cc.BoxCollider).enabled = false;
+        var player = cpProto.playerId === GLB.userInfo.id ? Game.PlayerManager.rival.node : Game.PlayerManager.self.node;
+        var worldPos = player.convertToWorldSpaceAR(cc.v2(0, 0,));
+        var localPos = this.node.convertToNodeSpaceAR(worldPos);
+        var action = cc.moveTo(0.2, localPos);
+        var finished = cc.callFunc(function() {
+            temp.destroy();
+        }.bind(this));
+        var myAction = cc.sequence(action, finished);
+        temp.runAction(myAction);
         setTimeout(function() {
             if (GLB.isRoomOwner) {
                 var posX = dataFunc.randomNumArea(-230, -80, 80, 230);

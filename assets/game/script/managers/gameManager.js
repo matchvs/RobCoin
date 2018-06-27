@@ -8,6 +8,29 @@ cc.Class({
         clientEvent.init();
         dataFunc.loadConfigs();
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+        this.network = window.network;
+        this.network.chooseNetworkMode();
+        this.getRankDataListener();
+        this.findPlayerByAccountListener();
+        /*
+        wx.login({
+            success: function() {
+                wx.getUserInfo({
+                    fail: function(res) {
+                        // iOS 和 Android 对于拒绝授权的回调 errMsg 没有统一，需要做一下兼容处理
+                        if (res.errMsg.indexOf('auth deny') > -1 || res.errMsg.indexOf('auth denied') > -1) {
+                            // 处理用户拒绝授权的情况
+                        }
+                    },
+                    success: function(res) {
+                        Game.GameManager.nickName = res.userInfo.nickName;
+                        Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
+                        console.log('success', Game.GameManager.nickName);
+                    }
+                });
+            }
+        })
+        */
     },
 
     leaveRoom: function(data) {
@@ -326,7 +349,7 @@ cc.Class({
                 } else {
                     Game.PlayerManager.self.tinySelf();
                 }
-                clientEvent.dispatch(clientEvent.eventType.itemGet);
+                clientEvent.dispatch(clientEvent.eventType.itemGet, {playerId: cpProto.playerId});
             }
             if (info.cpProto.indexOf(GLB.ITEM_EFFECT_DIS) >= 0) {
                 // 缩小药,恢复正常--
@@ -400,6 +423,69 @@ cc.Class({
         }
     },
 
+    getRankDataListener: function() {
+        this.network.on("connector.rankHandler.getRankData", function(recvMsg) {
+            uiFunc.openUI("uiRankPanelVer", function(obj) {
+                var uiRankPanel = obj.getComponent("uiRankPanel");
+                uiRankPanel.setData(recvMsg.rankArray);
+            });
+        }.bind(this));
+    },
+
+    findPlayerByAccountListener: function() {
+        this.network.on("connector.entryHandler.findPlayerByAccount", function(recvMsg) {
+            clientEvent.dispatch(clientEvent.eventType.playerAccountGet, recvMsg);
+        });
+    },
+
+    loginServer: function() {
+        if (!this.network.isConnected()) {
+            this.network.connect(GLB.IP, GLB.PORT, function() {
+                    this.network.send("connector.entryHandler.login", {
+                        "account": GLB.userInfo.id + "",
+                        "channel": "0",
+                        "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
+                        "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
+                    });
+                    setTimeout(function() {
+                        this.network.send("connector.rankHandler.updateScore", {
+                            "account": GLB.userInfo.id + "",
+                            "game": GLB.GAME_NAME
+                        });
+                    }.bind(this), 500);
+
+                }.bind(this)
+            );
+        } else {
+            this.network.send("connector.rankHandler.updateScore", {
+                "account": GLB.userInfo.id + "",
+                "game": GLB.GAME_NAME
+            });
+        }
+    },
+
+    userInfoReq: function(userId) {
+        if (!Game.GameManager.network.isConnected()) {
+            Game.GameManager.network.connect(GLB.IP, GLB.PORT, function() {
+                    Game.GameManager.network.send("connector.entryHandler.login", {
+                        "account": GLB.userInfo.id + "",
+                        "channel": "0",
+                        "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
+                        "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
+                    });
+                    setTimeout(function() {
+                        Game.GameManager.network.send("connector.entryHandler.findPlayerByAccount", {
+                            "account": userId + "",
+                        });
+                    }, 200);
+                }
+            );
+        } else {
+            Game.GameManager.network.send("connector.entryHandler.findPlayerByAccount", {
+                "account": userId + "",
+            });
+        }
+    },
 
     onDestroy() {
         clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);

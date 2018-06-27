@@ -54,3 +54,35 @@
 2018-06-26T12:57:20.364Z - normal: Run Application
 2018-06-26T12:57:21.334Z - success: preview server running at http://localhost:7456
 2018-06-26T12:57:27.579Z - normal: 1.9.2
+2018-06-27T03:27:58.622Z - warn: Script attached to "uiRankPanelVer" in prefab "uiRankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer"
+Asset url: "db://assets/resources/ui/uiRankPanelVer.prefab"
+Script UUID: "2c8cf83d-6e15-4133-a76f-c27594b79aa9"
+Class ID: "2c8cfg9bhVBM6dvwnWUt5qp"
+
+2018-06-27T03:28:46.321Z - warn: Script attached to "uiRankPanelVer" in prefab "uiRankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer"
+Asset url: "db://assets/resources/ui/uiRankPanelVer.prefab"
+Script UUID: "2c8cf83d-6e15-4133-a76f-c27594b79aa9"
+Class ID: "2c8cfg9bhVBM6dvwnWUt5qp"
+
+2018-06-27T03:28:47.184Z - error: "getComponent" is not defined in the Scene, it is only defined in normal nodes.
+    at cc_Scene.get (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/deprecated.js:669:20)
+    at HTMLElement.scene:query-animation-list (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14976)
+    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
+    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-27T03:28:47.194Z - error: "getComponent" is not defined in the Scene, it is only defined in normal nodes.
+    at cc_Scene.get (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/deprecated.js:669:20)
+    at HTMLElement.scene:query-animation-list (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14976)
+    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
+    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-27T03:28:49.809Z - warn: Script attached to "uiRankPanelVer" in prefab "uiRankPanelVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiRankPanelVer"
+Asset url: "db://assets/resources/ui/uiRankPanelVer.prefab"
+Script UUID: "2c8cf83d-6e15-4133-a76f-c27594b79aa9"
+Class ID: "2c8cfg9bhVBM6dvwnWUt5qp"
+
