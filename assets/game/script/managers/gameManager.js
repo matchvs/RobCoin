@@ -39,7 +39,7 @@ cc.Class({
             if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
                 this.isRivalLeave = true;
             }
-            clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+            clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, data);
             this.gameOver();
         }
     },

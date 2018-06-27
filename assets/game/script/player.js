@@ -48,6 +48,7 @@ cc.Class({
         this.trapDetectLeft.init(this.playerId);
         this.trapDetectRight.init(this.playerId);
         this.stepCnt = 0;
+        clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
     },
 
     // 缩小--
@@ -151,6 +152,8 @@ cc.Class({
 
     reborn() {
         this.isDead = false;
+        this.trapDetectLeft.isInTrap = false;
+        this.trapDetectRight.isInTrap = false;
         this.node.scale = 1;
         if (GLB.isRoomOwner) {
             if (this.playerId === GLB.userInfo.id) {
@@ -176,9 +179,25 @@ cc.Class({
     },
 
     update(dt) {
-        if (this.isDead) {
+        if (this.isDead || Game.GameManager.gameState === GameState.Over) {
             return;
         }
         this.node.rotation = cc.lerp(this.node.rotation, this.targetRotation, 20 * dt);
+    },
+
+    gameOver() {
+        var isWin = Game.GameManager.isRivalLeave ? true : Game.GameManager.selfScore > Game.GameManager.rivalScore;
+        if (this.playerId !== GLB.userInfo.id) {
+            isWin = !isWin;
+        }
+        if (isWin) {
+            this.anim.play("win");
+        } else {
+            this.anim.play("lose");
+        }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
     }
 });

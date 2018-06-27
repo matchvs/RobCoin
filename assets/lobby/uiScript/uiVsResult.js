@@ -15,7 +15,7 @@ cc.Class({
     },
 
     start() {
-        var isWin = Game.GameManager.selfScore > Game.GameManager.rivalScore;
+        var isWin = Game.GameManager.isRivalLeave ? true : Game.GameManager.selfScore > Game.GameManager.rivalScore;
 
         this.player = this.nodeDict["player"].getComponent("resultPlayerIcon");
         this.player.setData(Game.PlayerManager.self.playerId);

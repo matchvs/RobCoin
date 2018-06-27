@@ -97,6 +97,7 @@ cc.Class({
 
     leaveRoom: function() {
         mvs.engine.leaveRoom();
+        uiFunc.closeUI(this.node);
     },
 
     leaveRoomNotify: function(data) {

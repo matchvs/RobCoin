@@ -86,3 +86,18 @@ Asset url: "db://assets/resources/ui/uiRankPanelVer.prefab"
 Script UUID: "2c8cf83d-6e15-4133-a76f-c27594b79aa9"
 Class ID: "2c8cfg9bhVBM6dvwnWUt5qp"
 
+2018-06-27T05:54:02.375Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243260
+2018-06-27T05:54:26.305Z - failed: Task [animation-change-current-clip] run error, stop running other tasks.
+ TypeError: Cannot read property 'duration' of null
+    at Object._changeCurrentClip (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/anim-utils.js:1:3027)
+    at _queue.Async.queue (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/tasks.js:1:551)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:987:13
+    at Immediate.process (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:953:21)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-06-27T07:02:14.893Z - warn: Can not select this node in Animation Edit Mode
+2018-06-27T07:18:51.250Z - normal: Introduced global variable while editing: i
+2018-06-27T07:18:51.256Z - normal: Introduced global variable while editing: l
+2018-06-27T08:19:53.021Z - normal: Introduced global variable while editing: i
+2018-06-27T08:19:53.029Z - normal: Introduced global variable while editing: l

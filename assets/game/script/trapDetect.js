@@ -17,7 +17,9 @@ cc.Class({
                 break;
             case "item":
                 // 缩小药，获取
-                if (GLB.isRoomOwner) {
+                var boxCollider = other.node.getComponent(cc.BoxCollider);
+                if (GLB.isRoomOwner && boxCollider.enabled) {
+                    boxCollider.enabled = false;
                     mvs.engine.sendFrameEvent(JSON.stringify({
                         action: GLB.ITEM_GET,
                         playerId: this.hostPlayerId
@@ -26,7 +28,8 @@ cc.Class({
                 break;
             case "treasure":
                 // 宝箱，获取
-                if (GLB.isRoomOwner) {
+                var boxCollider = other.node.getComponent(cc.BoxCollider);
+                if (GLB.isRoomOwner && boxCollider.enabled) {
                     mvs.engine.sendFrameEvent(JSON.stringify({
                         action: GLB.TREASURE_GET,
                         playerId: this.hostPlayerId

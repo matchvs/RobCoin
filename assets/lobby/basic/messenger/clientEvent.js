@@ -11,6 +11,7 @@ window.clientEvent = {
         treasureGet: "treasureGet",
         itemGet: "itemGet",
 
+        playerAccountGet: "playerAccountGet",
         initResponse: "initResponse",
         errorResponse: "errorResponse",
         joinRoomResponse: "joinRoomResponse",
