@@ -47,6 +47,7 @@ window.GLB = {
     gameVersion: 1,
     IP: "wxrank.matchvs.com",
     PORT: "3010",
+    GAME_NAME: "game5",
     appKey: '311842dafe7846418420fc37886f97bf',
     secret: '688468ba92ce462fa97b286d4a30f3d3',
 
