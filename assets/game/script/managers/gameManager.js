@@ -38,6 +38,7 @@ cc.Class({
         if (this.gameState === GameState.Play) {
             if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
                 this.isRivalLeave = true;
+                GLB.isRoomOwner = true;
             }
             clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, data);
             this.gameOver();
