@@ -63,14 +63,12 @@
     "ParticleSystem",
     "TiledMap",
     "Spine Skeleton",
-    "ProgressBar",
     "ScrollBar",
     "ScrollView",
     "Toggle",
     "PageView",
     "PageViewIndicator",
     "Slider",
-    "EditorBox",
     "VideoPlayer",
     "WebView",
     "RichText",
@@ -96,6 +94,5 @@
     "width": 960
   },
   "use-customize-simulator": false,
-  "use-project-simulator-setting": false,
-  "start-scene": "current"
+  "use-project-simulator-setting": false
 }

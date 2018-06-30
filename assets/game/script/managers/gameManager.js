@@ -12,7 +12,6 @@ cc.Class({
         this.network.chooseNetworkMode();
         this.getRankDataListener();
         this.findPlayerByAccountListener();
-        /*
         wx.login({
             success: function() {
                 wx.getUserInfo({
@@ -30,7 +29,6 @@ cc.Class({
                 });
             }
         })
-        */
     },
 
     leaveRoom: function(data) {
