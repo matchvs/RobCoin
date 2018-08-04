@@ -1,82 +1,80 @@
-2018-06-30T09:32:41.486Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-30T09:32:41.491Z - normal: checking language setting...
-2018-06-30T09:32:41.491Z - normal: Language: zh
-2018-06-30T09:32:42.251Z - success: protocol editor-framework registered
-2018-06-30T09:32:42.252Z - success: protocol app registered
-2018-06-30T09:32:42.252Z - success: protocol theme registered
-2018-06-30T09:32:42.252Z - success: protocol packages registered
-2018-06-30T09:32:42.252Z - success: protocol unpack registerred
-2018-06-30T09:32:42.252Z - success: protocol disable-commonjs registerred
-2018-06-30T09:32:42.659Z - normal: connected!
-2018-06-30T09:32:42.662Z - normal: Check project /Users/mac/MatchVsGames/robCoin
-2018-06-30T09:32:42.667Z - normal: Initializing Cocos2d
-2018-06-30T09:32:42.965Z - normal: Initializing Asset Database
-2018-06-30T09:32:42.996Z - success: protocol uuid registerred
-2018-06-30T09:32:42.997Z - success: protocol db registerred
-2018-06-30T09:32:42.997Z - success: protocol thumbnail registerred
-2018-06-30T09:32:42.997Z - normal: Loading editor/builtin packages
-2018-06-30T09:32:43.019Z - success: anysdk loaded
-2018-06-30T09:32:43.117Z - success: assets loaded
-2018-06-30T09:32:43.121Z - success: builder loaded
-2018-06-30T09:32:43.123Z - success: cocos-analytics loaded
-2018-06-30T09:32:43.128Z - success: console loaded
-2018-06-30T09:32:43.158Z - success: fb-instant-games loaded
-2018-06-30T09:32:43.163Z - success: hierarchy loaded
-2018-06-30T09:32:43.168Z - success: inspector loaded
-2018-06-30T09:32:43.170Z - success: keystore loaded
-2018-06-30T09:32:43.174Z - success: node-library loaded
-2018-06-30T09:32:43.176Z - success: package-asset loaded
-2018-06-30T09:32:43.178Z - success: preferences loaded
-2018-06-30T09:32:43.181Z - success: project-exporter loaded
-2018-06-30T09:32:43.202Z - success: project-importer loaded
-2018-06-30T09:32:43.205Z - success: project-settings loaded
-2018-06-30T09:32:43.216Z - success: ui-kit loaded
-2018-06-30T09:32:43.223Z - success: ui-grid loaded
-2018-06-30T09:32:43.227Z - success: scene loaded
-2018-06-30T09:32:43.228Z - success: sprite-editor loaded
-2018-06-30T09:32:43.232Z - success: store loaded
-2018-06-30T09:32:43.237Z - success: timeline loaded
-2018-06-30T09:32:43.238Z - normal: Loading builtin packages
-2018-06-30T09:32:43.242Z - success: asset-db-debugger loaded
-2018-06-30T09:32:43.243Z - success: color-picker loaded
-2018-06-30T09:32:43.248Z - success: package-manager loaded
-2018-06-30T09:32:43.249Z - success: qqplay-adapter loaded
-2018-06-30T09:32:43.257Z - success: sdkbox loaded
-2018-06-30T09:32:43.261Z - success: tester loaded
-2018-06-30T09:32:43.266Z - success: ui-kit-preview-extra loaded
-2018-06-30T09:32:43.269Z - success: ui-kit-preview loaded
-2018-06-30T09:32:43.273Z - success: ui-tree loaded
-2018-06-30T09:32:43.275Z - success: weapp-adapter loaded
-2018-06-30T09:32:44.141Z - normal: Initializing project /Users/mac/MatchVsGames/robCoin
-2018-06-30T09:32:44.146Z - normal: Loading packages
-2018-06-30T09:32:44.164Z - success: plugin-matchvs loaded
-2018-06-30T09:32:44.164Z - normal: Watching packages
-2018-06-30T09:32:44.303Z - normal: Run Application
-2018-06-30T09:32:45.302Z - success: preview server running at http://localhost:7456
-2018-06-30T09:32:51.211Z - normal: 1.9.2
-2018-06-30T09:35:04.750Z - normal: Start building with options : {
+2018-08-04T03:23:56.337Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-04T03:23:56.341Z - normal: checking language setting...
+2018-08-04T03:23:56.341Z - normal: Language: zh
+2018-08-04T03:23:57.058Z - success: protocol editor-framework registered
+2018-08-04T03:23:57.059Z - success: protocol app registered
+2018-08-04T03:23:57.059Z - success: protocol theme registered
+2018-08-04T03:23:57.059Z - success: protocol packages registered
+2018-08-04T03:23:57.060Z - success: protocol unpack registerred
+2018-08-04T03:23:57.060Z - success: protocol disable-commonjs registerred
+2018-08-04T03:23:58.278Z - normal: connected!
+2018-08-04T03:23:58.279Z - normal: Check project /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T03:23:58.280Z - normal: Initializing Cocos2d
+2018-08-04T03:23:58.473Z - normal: Initializing Asset Database
+2018-08-04T03:23:58.505Z - success: protocol uuid registerred
+2018-08-04T03:23:58.505Z - success: protocol db registerred
+2018-08-04T03:23:58.505Z - success: protocol thumbnail registerred
+2018-08-04T03:23:58.505Z - normal: Loading editor/builtin packages
+2018-08-04T03:23:58.522Z - success: anysdk loaded
+2018-08-04T03:23:58.634Z - success: assets loaded
+2018-08-04T03:23:58.637Z - success: builder loaded
+2018-08-04T03:23:58.639Z - success: cocos-analytics loaded
+2018-08-04T03:23:58.645Z - success: console loaded
+2018-08-04T03:23:58.676Z - success: fb-instant-games loaded
+2018-08-04T03:23:58.681Z - success: hierarchy loaded
+2018-08-04T03:23:58.685Z - success: inspector loaded
+2018-08-04T03:23:58.687Z - success: keystore loaded
+2018-08-04T03:23:58.690Z - success: node-library loaded
+2018-08-04T03:23:58.692Z - success: package-asset loaded
+2018-08-04T03:23:58.695Z - success: preferences loaded
+2018-08-04T03:23:58.698Z - success: project-exporter loaded
+2018-08-04T03:23:58.714Z - success: project-importer loaded
+2018-08-04T03:23:58.718Z - success: project-settings loaded
+2018-08-04T03:23:58.725Z - success: ui-kit loaded
+2018-08-04T03:23:58.731Z - success: ui-grid loaded
+2018-08-04T03:23:58.735Z - success: scene loaded
+2018-08-04T03:23:58.736Z - success: sprite-editor loaded
+2018-08-04T03:23:58.740Z - success: store loaded
+2018-08-04T03:23:58.747Z - success: timeline loaded
+2018-08-04T03:23:58.747Z - normal: Loading builtin packages
+2018-08-04T03:23:58.752Z - success: asset-db-debugger loaded
+2018-08-04T03:23:58.752Z - success: color-picker loaded
+2018-08-04T03:23:58.756Z - success: package-manager loaded
+2018-08-04T03:23:58.757Z - success: qqplay-adapter loaded
+2018-08-04T03:23:58.763Z - success: sdkbox loaded
+2018-08-04T03:23:58.768Z - success: tester loaded
+2018-08-04T03:23:58.772Z - success: ui-kit-preview-extra loaded
+2018-08-04T03:23:58.775Z - success: ui-kit-preview loaded
+2018-08-04T03:23:58.778Z - success: ui-tree loaded
+2018-08-04T03:23:58.779Z - success: weapp-adapter loaded
+2018-08-04T03:23:59.736Z - normal: Initializing project /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T03:23:59.738Z - normal: Loading packages
+2018-08-04T03:23:59.749Z - success: plugin-matchvs loaded
+2018-08-04T03:23:59.749Z - normal: Watching packages
+2018-08-04T03:23:59.855Z - normal: Run Application
+2018-08-04T03:24:00.526Z - success: preview server running at http://localhost:7458
+2018-08-04T03:24:06.999Z - normal: 1.9.3
+2018-08-04T03:24:57.207Z - normal: Start building with options : {
   "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
   "appKey": "",
   "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
+  "buildPath": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build",
   "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
+  "dest": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame",
   "encryptJs": true,
   "excludeScenes": [],
   "excludedModules": [
     "ParticleSystem",
     "TiledMap",
     "Spine Skeleton",
-    "ProgressBar",
     "ScrollBar",
     "ScrollView",
     "Toggle",
     "PageView",
     "PageViewIndicator",
     "Slider",
-    "EditorBox",
     "VideoPlayer",
     "WebView",
     "RichText",
@@ -92,7 +90,7 @@
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "jailbreakPlatform": false,
-  "md5Cache": true,
+  "md5Cache": false,
   "mergeStartScene": false,
   "oauthLoginServer": "",
   "optimizeHotUpdate": false,
@@ -102,420 +100,120 @@
     "portrait": false,
     "upsideDown": false
   },
-  "packageName": "org.cocos2d.DuckHunt",
+  "packageName": "org.cocos2d.RobCoin",
   "platform": "wechatgame",
   "previewHeight": "720",
   "previewWidth": "1280",
   "privateKey": "",
   "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
     "orientation": "portrait"
   },
   "renderMode": "0",
   "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
+    "60331843-cd45-4a29-845f-a04a25500983",
+    "79146b76-f001-46c3-9f85-5e013f21b436"
   ],
   "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "startScene": "60331843-cd45-4a29-845f-a04a25500983",
   "template": "link",
-  "title": "robcoin",
+  "title": "RobCoin",
   "useDebugKeystore": true,
   "vsVersion": "auto",
-  "webOrientation": "portrait",
+  "webOrientation": "auto",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
     "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
   },
-  "xxteaKey": "a15e5bec-8ac1-4f",
+  "xxteaKey": "0a25fc7a-6725-46",
   "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
+  "project": "/Users/mac/MatchVsGithub/RobCoin/RobCoin",
+  "projectName": "RobCoin",
   "debugBuildWorker": false
 }
-2018-06-30T09:35:04.754Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T09:35:04.754Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T09:35:05.020Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T09:35:42.991Z - normal: Compiled project javascript file successfully
-2018-06-30T09:35:42.993Z - normal: Start building assets
-2018-06-30T09:35:42.993Z - normal: Start spawn build-worker
-2018-06-30T09:35:43.584Z - normal: Finish spawn build-worker
-2018-06-30T09:35:43.584Z - normal: Start init build-worker
-2018-06-30T09:35:45.435Z - normal: 1.9.2
-2018-06-30T09:35:45.699Z - normal: Finish init build-worker
-2018-06-30T09:35:45.699Z - normal: Start build-assets in worker
-2018-06-30T09:35:46.756Z - normal: Finish build-assets in worker
-2018-06-30T09:35:46.759Z - normal: Finish building assets
-2018-06-30T09:35:46.793Z - normal: Start building raw assets
-2018-06-30T09:35:46.795Z - normal: Start building plugin scripts
-2018-06-30T09:35:49.110Z - normal: Finish building plugin scripts
-2018-06-30T09:35:49.231Z - normal: Finish building raw assets
-2018-06-30T09:35:49.234Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:35:50.472Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T09:35:53.474Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:35:53.475Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:35:53.863Z - normal: Initializing...
+2018-08-04T03:24:57.211Z - normal: Building /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T03:24:57.211Z - normal: Destination /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame
+2018-08-04T03:24:57.510Z - normal: Delete /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame/**/*
+2018-08-04T03:25:37.947Z - normal: Compiled project javascript file successfully
+2018-08-04T03:25:37.948Z - normal: Start building assets
+2018-08-04T03:25:37.949Z - normal: Start spawn build-worker
+2018-08-04T03:25:38.661Z - normal: Finish spawn build-worker
+2018-08-04T03:25:38.661Z - normal: Start init build-worker
+2018-08-04T03:25:40.672Z - normal: 1.9.3
+2018-08-04T03:25:40.993Z - normal: Finish init build-worker
+2018-08-04T03:25:40.993Z - normal: Start build-assets in worker
+2018-08-04T03:25:42.085Z - normal: Finish build-assets in worker
+2018-08-04T03:25:42.088Z - normal: Finish building assets
+2018-08-04T03:25:42.125Z - normal: Start building raw assets
+2018-08-04T03:25:42.126Z - normal: Start building plugin scripts
+2018-08-04T03:25:44.332Z - normal: Finish building plugin scripts
+2018-08-04T03:25:44.709Z - normal: Finish building raw assets
+2018-08-04T03:25:44.714Z - normal: Generating main.js from /Applications/CocosCreator 1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-04T03:25:45.713Z - normal: Built to "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame" successfully
+2018-08-04T03:26:00.250Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-04T03:26:00.251Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-04T03:26:00.680Z - normal: Initializing...
 
-2018-06-30T09:35:53.870Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+2018-08-04T03:26:00.687Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T09:35:53.891Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+2018-08-04T03:26:00.710Z - normal: IDE server has started, listening on http://127.0.0.1:34695
+
+2018-08-04T03:26:00.711Z - normal: initialization finished
+
+2018-08-04T03:26:00.832Z - error: StatusCodeError: 400 - "{\"code\":40000,\"error\":\"错误 需要重新登录\"}"
+
+    at Socket.<anonymous> (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2018-08-04T03:26:49.147Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-04T03:26:49.148Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-04T03:26:49.603Z - normal: Initializing...
+
+2018-08-04T03:26:49.614Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-08-04T03:26:49.640Z - normal: IDE server has started, listening on http://127.0.0.1:34695
 initialization finished
 
-2018-06-30T09:35:54.561Z - normal: open IDE success
+2018-08-04T03:26:50.339Z - normal: open IDE success
 
-2018-06-30T09:36:28.136Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "EditorBox",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T09:36:28.157Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T09:36:28.157Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T09:36:28.159Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T09:36:43.659Z - normal: Compiled project javascript file successfully
-2018-06-30T09:36:43.659Z - normal: Start building assets
-2018-06-30T09:36:43.659Z - normal: Start spawn build-worker
-2018-06-30T09:36:44.626Z - normal: Finish spawn build-worker
-2018-06-30T09:36:44.626Z - normal: Start init build-worker
-2018-06-30T09:36:47.727Z - normal: 1.9.2
-2018-06-30T09:36:48.279Z - normal: Finish init build-worker
-2018-06-30T09:36:48.279Z - normal: Start build-assets in worker
-2018-06-30T09:36:51.696Z - normal: Finish build-assets in worker
-2018-06-30T09:36:51.709Z - normal: Finish building assets
-2018-06-30T09:36:51.761Z - normal: Start building raw assets
-2018-06-30T09:36:51.762Z - normal: Start building plugin scripts
-2018-06-30T09:36:54.562Z - normal: Finish building plugin scripts
-2018-06-30T09:36:55.093Z - normal: Finish building raw assets
-2018-06-30T09:36:55.097Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:36:56.697Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T09:36:59.303Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:36:59.303Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:37:00.054Z - normal: Initializing...
+2018-08-04T03:28:54.223Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-04T03:28:54.225Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-04T03:28:54.676Z - normal: Initializing...
 
-2018-06-30T09:37:00.065Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+2018-08-04T03:28:54.687Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T09:37:00.142Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T09:37:00.142Z - normal: initialization finished
-
-2018-06-30T09:37:00.423Z - normal: open IDE success
-
-2018-06-30T09:40:00.540Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "EditorBox",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T09:40:00.551Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T09:40:00.551Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T09:40:00.553Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T09:40:10.220Z - normal: Compiled project javascript file successfully
-2018-06-30T09:40:10.221Z - normal: Start building assets
-2018-06-30T09:40:10.222Z - normal: Start spawn build-worker
-2018-06-30T09:40:10.884Z - normal: Finish spawn build-worker
-2018-06-30T09:40:10.885Z - normal: Start init build-worker
-2018-06-30T09:40:12.824Z - normal: 1.9.2
-2018-06-30T09:40:13.110Z - normal: Finish init build-worker
-2018-06-30T09:40:13.111Z - normal: Start build-assets in worker
-2018-06-30T09:40:14.349Z - normal: Finish build-assets in worker
-2018-06-30T09:40:14.351Z - normal: Finish building assets
-2018-06-30T09:40:14.381Z - normal: Start building raw assets
-2018-06-30T09:40:14.382Z - normal: Start building plugin scripts
-2018-06-30T09:40:16.331Z - normal: Finish building plugin scripts
-2018-06-30T09:40:16.434Z - normal: Finish building raw assets
-2018-06-30T09:40:16.438Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:40:17.626Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T09:40:21.875Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:40:21.875Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:40:22.383Z - normal: Initializing...
-
-2018-06-30T09:40:22.396Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T09:40:22.426Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T09:40:22.427Z - normal: initialization finished
-
-2018-06-30T09:40:22.657Z - normal: open IDE success
-
-2018-06-30T09:42:07.350Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7887
-2018-06-30T09:49:55.830Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "EditorBox",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T09:49:55.850Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T09:49:55.850Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T09:49:55.851Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T09:50:10.028Z - normal: Compiled project javascript file successfully
-2018-06-30T09:50:10.028Z - normal: Start building assets
-2018-06-30T09:50:10.028Z - normal: Start spawn build-worker
-2018-06-30T09:50:11.104Z - normal: Finish spawn build-worker
-2018-06-30T09:50:11.104Z - normal: Start init build-worker
-2018-06-30T09:50:14.211Z - normal: 1.9.2
-2018-06-30T09:50:14.598Z - normal: Finish init build-worker
-2018-06-30T09:50:14.598Z - normal: Start build-assets in worker
-2018-06-30T09:50:17.114Z - normal: Finish build-assets in worker
-2018-06-30T09:50:17.124Z - normal: Finish building assets
-2018-06-30T09:50:17.168Z - normal: Start building raw assets
-2018-06-30T09:50:17.170Z - normal: Start building plugin scripts
-2018-06-30T09:50:20.414Z - normal: Finish building plugin scripts
-2018-06-30T09:50:20.582Z - normal: Finish building raw assets
-2018-06-30T09:50:20.591Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:50:22.116Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T09:50:39.495Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:50:39.495Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:50:40.230Z - normal: Initializing...
-
-2018-06-30T09:50:40.247Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T09:50:40.311Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+2018-08-04T03:28:54.708Z - normal: IDE server has started, listening on http://127.0.0.1:34695
 initialization finished
 
-2018-06-30T09:50:40.508Z - normal: open IDE success
+2018-08-04T03:28:55.535Z - normal: open IDE success
 
-2018-06-30T09:51:16.627Z - normal: Start building with options : {
+2018-08-04T03:32:30.773Z - normal: Start building with options : {
   "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
   "appKey": "",
   "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
+  "buildPath": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build",
   "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
+  "dest": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame",
   "encryptJs": true,
   "excludeScenes": [],
   "excludedModules": [
     "ParticleSystem",
     "TiledMap",
     "Spine Skeleton",
-    "ProgressBar",
     "ScrollBar",
     "ScrollView",
     "Toggle",
     "PageView",
     "PageViewIndicator",
     "Slider",
-    "EditorBox",
     "VideoPlayer",
     "WebView",
     "RichText",
@@ -524,6 +222,184 @@ initialization finished
     "Camera",
     "Native NetWork"
   ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.RobCoin",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "60331843-cd45-4a29-845f-a04a25500983",
+    "79146b76-f001-46c3-9f85-5e013f21b436"
+  ],
+  "sourceMaps": false,
+  "startScene": "60331843-cd45-4a29-845f-a04a25500983",
+  "template": "link",
+  "title": "RobCoin",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
+    "appid": "wx793199d0ca521154",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "0a25fc7a-6725-46",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGithub/RobCoin/RobCoin",
+  "projectName": "RobCoin",
+  "debugBuildWorker": false
+}
+2018-08-04T03:32:30.793Z - normal: Building /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T03:32:30.793Z - normal: Destination /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame
+2018-08-04T03:32:30.799Z - normal: Delete /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame/**/*
+2018-08-04T03:32:47.807Z - normal: Compiled project javascript file successfully
+2018-08-04T03:32:47.808Z - normal: Start building assets
+2018-08-04T03:32:47.808Z - normal: Start spawn build-worker
+2018-08-04T03:32:48.523Z - normal: Finish spawn build-worker
+2018-08-04T03:32:48.523Z - normal: Start init build-worker
+2018-08-04T03:32:50.756Z - normal: 1.9.3
+2018-08-04T03:32:51.103Z - normal: Finish init build-worker
+2018-08-04T03:32:51.105Z - normal: Start build-assets in worker
+2018-08-04T03:32:52.428Z - normal: Finish build-assets in worker
+2018-08-04T03:32:52.431Z - normal: Finish building assets
+2018-08-04T03:32:52.465Z - normal: Start building raw assets
+2018-08-04T03:32:52.466Z - normal: Start building plugin scripts
+2018-08-04T03:32:54.502Z - normal: Finish building plugin scripts
+2018-08-04T03:32:54.639Z - normal: Finish building raw assets
+2018-08-04T03:32:54.642Z - normal: Generating main.js from /Applications/CocosCreator 1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-04T03:32:55.521Z - normal: Built to "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame" successfully
+2018-08-04T03:34:21.969Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-04T03:34:21.971Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-04T03:34:22.350Z - normal: Initializing...
+
+2018-08-04T03:34:22.356Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-08-04T03:34:22.468Z - normal: starting ide...
+
+2018-08-04T03:34:24.834Z - normal: IDE server has started, listening on http://127.0.0.1:61301
+
+2018-08-04T03:34:24.840Z - normal: initialization finished
+
+2018-08-04T03:34:25.110Z - normal: open IDE success
+
+2018-08-04T03:34:57.976Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.RobCoin",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "60331843-cd45-4a29-845f-a04a25500983",
+    "79146b76-f001-46c3-9f85-5e013f21b436"
+  ],
+  "sourceMaps": false,
+  "startScene": "60331843-cd45-4a29-845f-a04a25500983",
+  "template": "link",
+  "title": "RobCoin",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
+    "appid": "wx793199d0ca521154",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "0a25fc7a-6725-46",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGithub/RobCoin/RobCoin",
+  "projectName": "RobCoin",
+  "debugBuildWorker": false
+}
+2018-08-04T03:34:57.988Z - normal: Building /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T03:34:57.989Z - normal: Destination /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame
+2018-08-04T03:34:57.990Z - normal: Delete /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame/**/*
+2018-08-04T03:35:57.838Z - normal: Compiled project javascript file successfully
+2018-08-04T03:35:57.839Z - normal: Start building assets
+2018-08-04T03:35:57.840Z - normal: Start spawn build-worker
+2018-08-04T03:35:58.489Z - normal: Finish spawn build-worker
+2018-08-04T03:35:58.489Z - normal: Start init build-worker
+2018-08-04T03:36:00.577Z - normal: 1.9.3
+2018-08-04T03:36:00.883Z - normal: Finish init build-worker
+2018-08-04T03:36:00.883Z - normal: Start build-assets in worker
+2018-08-04T03:36:02.301Z - normal: Finish build-assets in worker
+2018-08-04T03:36:02.304Z - normal: Finish building assets
+2018-08-04T03:36:02.343Z - normal: Start building raw assets
+2018-08-04T03:36:02.344Z - normal: Start building plugin scripts
+2018-08-04T03:36:04.258Z - normal: Finish building plugin scripts
+2018-08-04T03:36:04.706Z - normal: Finish building raw assets
+2018-08-04T03:36:04.709Z - normal: Generating main.js from /Applications/CocosCreator 1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-04T03:36:05.667Z - normal: Built to "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame" successfully
+2018-08-04T03:36:11.694Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
   "fb-instant-games": {},
   "includeAnySDK": false,
   "includeEruda": false,
@@ -541,99 +417,83 @@ initialization finished
     "portrait": false,
     "upsideDown": false
   },
-  "packageName": "org.cocos2d.DuckHunt",
+  "packageName": "org.cocos2d.RobCoin",
   "platform": "wechatgame",
   "previewHeight": "720",
   "previewWidth": "1280",
   "privateKey": "",
   "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
     "orientation": "portrait"
   },
   "renderMode": "0",
   "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
+    "60331843-cd45-4a29-845f-a04a25500983",
+    "79146b76-f001-46c3-9f85-5e013f21b436"
   ],
   "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "startScene": "60331843-cd45-4a29-845f-a04a25500983",
   "template": "link",
-  "title": "robcoin",
+  "title": "RobCoin",
   "useDebugKeystore": true,
   "vsVersion": "auto",
-  "webOrientation": "portrait",
+  "webOrientation": "auto",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
     "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
   },
-  "xxteaKey": "a15e5bec-8ac1-4f",
+  "xxteaKey": "0a25fc7a-6725-46",
   "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
+  "project": "/Users/mac/MatchVsGithub/RobCoin/RobCoin",
+  "projectName": "RobCoin",
   "debugBuildWorker": false
 }
-2018-06-30T09:51:16.632Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T09:51:16.633Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T09:51:16.633Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T09:51:31.207Z - normal: Compiled project javascript file successfully
-2018-06-30T09:51:31.207Z - normal: Start building assets
-2018-06-30T09:51:31.208Z - normal: Start spawn build-worker
-2018-06-30T09:51:32.256Z - normal: Finish spawn build-worker
-2018-06-30T09:51:32.256Z - normal: Start init build-worker
-2018-06-30T09:51:35.118Z - normal: 1.9.2
-2018-06-30T09:51:35.561Z - normal: Finish init build-worker
-2018-06-30T09:51:35.561Z - normal: Start build-assets in worker
-2018-06-30T09:51:38.223Z - normal: Finish build-assets in worker
-2018-06-30T09:51:38.227Z - normal: Finish building assets
-2018-06-30T09:51:38.270Z - normal: Start building raw assets
-2018-06-30T09:51:38.271Z - normal: Start building plugin scripts
-2018-06-30T09:51:41.251Z - normal: Finish building plugin scripts
-2018-06-30T09:51:42.080Z - normal: Finish building raw assets
-2018-06-30T09:51:42.093Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:51:44.107Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T09:51:45.827Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:51:45.828Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:51:46.306Z - normal: Initializing...
+2018-08-04T03:36:11.704Z - normal: Building /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T03:36:11.704Z - normal: Destination /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame
+2018-08-04T03:36:11.705Z - normal: Delete /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame/**/*
+2018-08-04T03:36:22.080Z - normal: Compiled project javascript file successfully
+2018-08-04T03:36:22.080Z - normal: Start building assets
+2018-08-04T03:36:22.080Z - normal: Start spawn build-worker
+2018-08-04T03:36:22.756Z - normal: Finish spawn build-worker
+2018-08-04T03:36:22.759Z - normal: Start init build-worker
+2018-08-04T03:36:24.771Z - normal: 1.9.3
+2018-08-04T03:36:25.070Z - normal: Finish init build-worker
+2018-08-04T03:36:25.070Z - normal: Start build-assets in worker
+2018-08-04T03:36:26.433Z - normal: Finish build-assets in worker
+2018-08-04T03:36:26.436Z - normal: Finish building assets
+2018-08-04T03:36:26.461Z - normal: Start building raw assets
+2018-08-04T03:36:26.461Z - normal: Start building plugin scripts
+2018-08-04T03:36:28.257Z - normal: Finish building plugin scripts
+2018-08-04T03:36:28.754Z - normal: Finish building raw assets
+2018-08-04T03:36:28.756Z - normal: Generating main.js from /Applications/CocosCreator 1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-04T03:36:29.697Z - normal: Built to "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame" successfully
+2018-08-04T03:36:38.580Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-04T03:36:38.580Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-04T03:36:38.992Z - normal: Initializing...
 
-2018-06-30T09:51:46.328Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+2018-08-04T03:36:38.999Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T09:51:46.390Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+2018-08-04T03:36:39.021Z - normal: IDE server has started, listening on http://127.0.0.1:61301
 
-2018-06-30T09:51:46.393Z - normal: initialization finished
+2018-08-04T03:36:39.022Z - normal: initialization finished
 
-2018-06-30T09:51:46.597Z - normal: open IDE success
+2018-08-04T03:36:39.614Z - normal: open IDE success
 
-2018-06-30T09:54:06.555Z - normal: Start building with options : {
+2018-08-04T03:36:58.476Z - normal: Start building with options : {
   "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
   "appKey": "",
   "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
+  "buildPath": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build",
   "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
+  "dest": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame",
   "encryptJs": true,
   "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "EditorBox",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
+  "excludedModules": [],
   "fb-instant-games": {},
   "includeAnySDK": false,
   "includeEruda": false,
@@ -651,12 +511,13 @@ initialization finished
     "portrait": false,
     "upsideDown": false
   },
-  "packageName": "org.cocos2d.DuckHunt",
+  "packageName": "org.cocos2d.RobCoin",
   "platform": "wechatgame",
   "previewHeight": "720",
   "previewWidth": "1280",
   "privateKey": "",
   "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
     "orientation": "portrait"
   },
   "renderMode": "0",
@@ -667,1157 +528,431 @@ initialization finished
   "sourceMaps": false,
   "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
   "template": "link",
-  "title": "robcoin",
+  "title": "RobCoin",
   "useDebugKeystore": true,
   "vsVersion": "auto",
-  "webOrientation": "portrait",
+  "webOrientation": "auto",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
     "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
   },
-  "xxteaKey": "a15e5bec-8ac1-4f",
+  "xxteaKey": "0a25fc7a-6725-46",
   "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
+  "project": "/Users/mac/MatchVsGithub/RobCoin/RobCoin",
+  "projectName": "RobCoin",
   "debugBuildWorker": false
 }
-2018-06-30T09:54:06.573Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T09:54:06.573Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T09:54:06.574Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T09:54:17.742Z - normal: Compiled project javascript file successfully
-2018-06-30T09:54:17.743Z - normal: Start building assets
-2018-06-30T09:54:17.743Z - normal: Start spawn build-worker
-2018-06-30T09:54:18.428Z - normal: Finish spawn build-worker
-2018-06-30T09:54:18.428Z - normal: Start init build-worker
-2018-06-30T09:54:20.712Z - normal: 1.9.2
-2018-06-30T09:54:21.054Z - normal: Finish init build-worker
-2018-06-30T09:54:21.054Z - normal: Start build-assets in worker
-2018-06-30T09:54:22.665Z - normal: Finish build-assets in worker
-2018-06-30T09:54:22.669Z - normal: Finish building assets
-2018-06-30T09:54:22.710Z - normal: Start building raw assets
-2018-06-30T09:54:22.711Z - normal: Start building plugin scripts
-2018-06-30T09:54:25.132Z - normal: Finish building plugin scripts
-2018-06-30T09:54:25.268Z - normal: Finish building raw assets
-2018-06-30T09:54:25.273Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:54:26.519Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T09:54:33.252Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:54:33.253Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:54:33.651Z - normal: Initializing...
+2018-08-04T03:36:58.480Z - normal: Building /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T03:36:58.481Z - normal: Destination /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame
+2018-08-04T03:36:58.481Z - normal: Delete /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame/**/*
+2018-08-04T03:37:09.047Z - normal: Compiled project javascript file successfully
+2018-08-04T03:37:09.047Z - normal: Start building assets
+2018-08-04T03:37:09.048Z - normal: Start spawn build-worker
+2018-08-04T03:37:09.782Z - normal: Finish spawn build-worker
+2018-08-04T03:37:09.782Z - normal: Start init build-worker
+2018-08-04T03:37:11.919Z - normal: 1.9.3
+2018-08-04T03:37:12.234Z - normal: Finish init build-worker
+2018-08-04T03:37:12.234Z - normal: Start build-assets in worker
+2018-08-04T03:37:13.670Z - normal: Finish build-assets in worker
+2018-08-04T03:37:13.675Z - normal: Finish building assets
+2018-08-04T03:37:13.712Z - normal: Start building raw assets
+2018-08-04T03:37:13.713Z - normal: Start building plugin scripts
+2018-08-04T03:37:15.555Z - normal: Finish building plugin scripts
+2018-08-04T03:37:16.060Z - normal: Finish building raw assets
+2018-08-04T03:37:16.063Z - normal: Generating main.js from /Applications/CocosCreator 1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-04T03:37:17.134Z - normal: Built to "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame" successfully
+2018-08-04T03:37:24.297Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-04T03:37:24.298Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-04T03:37:24.700Z - normal: Initializing...
 
-2018-06-30T09:54:33.660Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+2018-08-04T03:37:24.706Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T09:54:33.678Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+2018-08-04T03:37:24.727Z - normal: IDE server has started, listening on http://127.0.0.1:61301
+
+2018-08-04T03:37:24.728Z - normal: initialization finished
+
+2018-08-04T03:37:25.126Z - normal: open IDE success
+
+2018-08-04T03:45:59.725Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.RobCoin",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "RobCoin",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
+    "appid": "wx793199d0ca521154",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "0a25fc7a-6725-46",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGithub/RobCoin/RobCoin",
+  "projectName": "RobCoin",
+  "debugBuildWorker": false
+}
+2018-08-04T03:45:59.734Z - normal: Building /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T03:45:59.736Z - normal: Destination /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame
+2018-08-04T03:45:59.737Z - normal: Delete /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame/**/*
+2018-08-04T03:46:02.118Z - normal: Compiled project javascript file successfully
+2018-08-04T03:46:02.119Z - error: Build Failed: Compile error: Filename conflict, the module "rankUserInfo" both defined in "assets/basic/script/rankUserInfo.js" and "assets/basic/script/rankUserInfo.js"
+    at a (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/compile-worker.js:1:3513)
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/globby/index.js:74:3
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:726:13
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at done (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:246:17)
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:723:17
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/globby/index.js:65:5
+    at f (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/once/once.js:25:25)
+    at Async.series.r (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/core/builder.js:1:3101)
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:726:13
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:264:21
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:723:17
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at Gulp.doneCallback (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/core/gulp-build.js:1:21071)
+    at Gulp.Orchestrator.stop (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/orchestrator/index.js:150:9)
+2018-08-04T03:47:00.671Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.RobCoin",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "RobCoin",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
+    "appid": "wx793199d0ca521154",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "0a25fc7a-6725-46",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGithub/RobCoin/RobCoin",
+  "projectName": "RobCoin",
+  "debugBuildWorker": false
+}
+2018-08-04T03:47:00.674Z - normal: Building /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T03:47:00.674Z - normal: Destination /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame
+2018-08-04T03:47:00.675Z - normal: Delete /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame/**/*
+2018-08-04T03:47:10.212Z - normal: Compiled project javascript file successfully
+2018-08-04T03:47:10.212Z - normal: Start building assets
+2018-08-04T03:47:10.212Z - normal: Start spawn build-worker
+2018-08-04T03:47:10.879Z - normal: Finish spawn build-worker
+2018-08-04T03:47:10.879Z - normal: Start init build-worker
+2018-08-04T03:47:12.909Z - normal: 1.9.3
+2018-08-04T03:47:13.235Z - normal: Finish init build-worker
+2018-08-04T03:47:13.235Z - normal: Start build-assets in worker
+2018-08-04T03:47:14.491Z - normal: Finish build-assets in worker
+2018-08-04T03:47:14.499Z - normal: Finish building assets
+2018-08-04T03:47:14.531Z - normal: Start building raw assets
+2018-08-04T03:47:14.532Z - normal: Start building plugin scripts
+2018-08-04T03:47:16.420Z - normal: Finish building plugin scripts
+2018-08-04T03:47:16.869Z - normal: Finish building raw assets
+2018-08-04T03:47:16.873Z - normal: Generating main.js from /Applications/CocosCreator 1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-04T03:47:17.954Z - normal: Built to "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame" successfully
+2018-08-04T03:49:27.352Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-04T03:49:27.354Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-04T03:49:27.765Z - normal: Initializing...
+
+2018-08-04T03:49:27.771Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-08-04T03:49:27.801Z - normal: IDE server has started, listening on http://127.0.0.1:61301
+
+2018-08-04T03:49:27.802Z - normal: initialization finished
+
+2018-08-04T03:49:28.028Z - normal: open IDE success
+
+2018-08-04T04:00:18.805Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.RobCoin",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "RobCoin",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
+    "appid": "wx793199d0ca521154",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "0a25fc7a-6725-46",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGithub/RobCoin/RobCoin",
+  "projectName": "RobCoin",
+  "debugBuildWorker": false
+}
+2018-08-04T04:00:18.819Z - normal: Building /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T04:00:18.819Z - normal: Destination /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame
+2018-08-04T04:00:18.821Z - normal: Delete /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame/**/*
+2018-08-04T04:00:29.799Z - normal: Compiled project javascript file successfully
+2018-08-04T04:00:29.800Z - normal: Start building assets
+2018-08-04T04:00:29.800Z - normal: Start spawn build-worker
+2018-08-04T04:00:30.526Z - normal: Finish spawn build-worker
+2018-08-04T04:00:30.526Z - normal: Start init build-worker
+2018-08-04T04:00:32.629Z - normal: 1.9.3
+2018-08-04T04:00:32.968Z - normal: Finish init build-worker
+2018-08-04T04:00:32.968Z - normal: Start build-assets in worker
+2018-08-04T04:00:34.194Z - normal: Finish build-assets in worker
+2018-08-04T04:00:34.197Z - normal: Finish building assets
+2018-08-04T04:00:34.232Z - normal: Start building raw assets
+2018-08-04T04:00:34.232Z - normal: Start building plugin scripts
+2018-08-04T04:00:36.092Z - normal: Finish building plugin scripts
+2018-08-04T04:00:36.548Z - normal: Finish building raw assets
+2018-08-04T04:00:36.554Z - normal: Generating main.js from /Applications/CocosCreator 1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-04T04:00:37.637Z - normal: Built to "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame" successfully
+2018-08-04T04:04:02.056Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.RobCoin",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "60331843-cd45-4a29-845f-a04a25500983"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "RobCoin",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
+    "appid": "wx793199d0ca521154",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "0a25fc7a-6725-46",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGithub/RobCoin/RobCoin",
+  "projectName": "RobCoin",
+  "debugBuildWorker": false
+}
+2018-08-04T04:04:02.066Z - normal: Building /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-04T04:04:02.066Z - normal: Destination /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame
+2018-08-04T04:04:02.067Z - normal: Delete /Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame/**/*
+2018-08-04T04:04:12.092Z - normal: Compiled project javascript file successfully
+2018-08-04T04:04:12.093Z - normal: Start building assets
+2018-08-04T04:04:12.093Z - normal: Start spawn build-worker
+2018-08-04T04:04:12.793Z - normal: Finish spawn build-worker
+2018-08-04T04:04:12.793Z - normal: Start init build-worker
+2018-08-04T04:04:14.739Z - normal: 1.9.3
+2018-08-04T04:04:15.043Z - normal: Finish init build-worker
+2018-08-04T04:04:15.044Z - normal: Start build-assets in worker
+2018-08-04T04:04:16.221Z - normal: Finish build-assets in worker
+2018-08-04T04:04:16.225Z - normal: Finish building assets
+2018-08-04T04:04:16.255Z - normal: Start building raw assets
+2018-08-04T04:04:16.256Z - normal: Start building plugin scripts
+2018-08-04T04:04:18.001Z - normal: Finish building plugin scripts
+2018-08-04T04:04:18.132Z - normal: Finish building raw assets
+2018-08-04T04:04:18.135Z - normal: Generating main.js from /Applications/CocosCreator 1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-04T04:04:19.202Z - normal: Built to "/Users/mac/MatchVsGithub/RobCoin/RobCoin/build/wechatgame" successfully
+2018-08-04T04:04:47.261Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-04T04:04:47.262Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-04T04:04:47.734Z - normal: Initializing...
+
+2018-08-04T04:04:47.742Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-08-04T04:04:47.767Z - normal: IDE server has started, listening on http://127.0.0.1:61301
 initialization finished
 
-2018-06-30T09:54:33.890Z - normal: open IDE success
+2018-08-04T04:04:48.184Z - normal: open IDE success
 
-2018-06-30T09:55:54.125Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "EditorBox",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T09:55:54.133Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T09:55:54.133Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T09:55:54.134Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T09:56:03.719Z - normal: Compiled project javascript file successfully
-2018-06-30T09:56:03.720Z - normal: Start building assets
-2018-06-30T09:56:03.720Z - normal: Start spawn build-worker
-2018-06-30T09:56:04.321Z - normal: Finish spawn build-worker
-2018-06-30T09:56:04.321Z - normal: Start init build-worker
-2018-06-30T09:56:06.158Z - normal: 1.9.2
-2018-06-30T09:56:06.412Z - normal: Finish init build-worker
-2018-06-30T09:56:06.415Z - normal: Start build-assets in worker
-2018-06-30T09:56:07.451Z - normal: Finish build-assets in worker
-2018-06-30T09:56:07.454Z - normal: Finish building assets
-2018-06-30T09:56:07.484Z - normal: Start building raw assets
-2018-06-30T09:56:07.485Z - normal: Start building plugin scripts
-2018-06-30T09:56:09.311Z - normal: Finish building plugin scripts
-2018-06-30T09:56:09.419Z - normal: Finish building raw assets
-2018-06-30T09:56:09.424Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:56:10.431Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T09:56:16.616Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:56:16.617Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:56:17.014Z - normal: Initializing...
+2018-08-04T04:07:27.131Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-04T04:07:27.133Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-04T04:07:27.838Z - normal: Initializing...
 
-2018-06-30T09:56:17.020Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+2018-08-04T04:07:27.845Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T09:56:17.038Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-initialization finished
+2018-08-04T04:07:27.873Z - normal: IDE server has started, listening on http://127.0.0.1:61301
 
-2018-06-30T09:56:17.670Z - normal: open IDE success
+2018-08-04T04:07:27.873Z - normal: initialization finished
 
-2018-06-30T09:57:12.603Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "EditorBox",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T09:57:12.622Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T09:57:12.623Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T09:57:12.625Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T09:57:23.526Z - normal: Compiled project javascript file successfully
-2018-06-30T09:57:23.526Z - normal: Start building assets
-2018-06-30T09:57:23.526Z - normal: Start spawn build-worker
-2018-06-30T09:57:24.288Z - normal: Finish spawn build-worker
-2018-06-30T09:57:24.288Z - normal: Start init build-worker
-2018-06-30T09:57:26.324Z - normal: 1.9.2
-2018-06-30T09:57:26.621Z - normal: Finish init build-worker
-2018-06-30T09:57:26.621Z - normal: Start build-assets in worker
-2018-06-30T09:57:28.146Z - normal: Finish build-assets in worker
-2018-06-30T09:57:28.149Z - normal: Finish building assets
-2018-06-30T09:57:28.181Z - normal: Start building raw assets
-2018-06-30T09:57:28.182Z - normal: Start building plugin scripts
-2018-06-30T09:57:30.355Z - normal: Finish building plugin scripts
-2018-06-30T09:57:30.456Z - normal: Finish building raw assets
-2018-06-30T09:57:30.464Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:57:31.519Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T09:57:38.130Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:57:38.130Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:57:38.581Z - normal: Initializing...
+2018-08-04T04:07:28.048Z - normal: open IDE success
 
-2018-06-30T09:57:38.594Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+2018-08-04T05:44:57.466Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-04T05:44:57.468Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-04T05:44:57.905Z - normal: Initializing...
 
-2018-06-30T09:57:38.622Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-initialization finished
+2018-08-04T05:44:57.913Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T09:57:39.240Z - normal: open IDE success
+2018-08-04T05:44:57.933Z - normal: IDE server has started, listening on http://127.0.0.1:61301
 
-2018-06-30T10:00:06.232Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T10:00:06.234Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T10:00:06.690Z - normal: Initializing...
+2018-08-04T05:44:57.936Z - normal: initialization finished
 
-2018-06-30T10:00:06.699Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T10:00:06.719Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T10:00:06.719Z - normal: initialization finished
-
-2018-06-30T10:00:07.216Z - normal: open IDE success
-
-2018-06-30T10:00:46.787Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "EditorBox",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T10:00:46.801Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T10:00:46.801Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T10:00:46.802Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T10:00:57.863Z - normal: Compiled project javascript file successfully
-2018-06-30T10:00:57.863Z - normal: Start building assets
-2018-06-30T10:00:57.864Z - normal: Start spawn build-worker
-2018-06-30T10:00:58.589Z - normal: Finish spawn build-worker
-2018-06-30T10:00:58.589Z - normal: Start init build-worker
-2018-06-30T10:01:01.246Z - normal: 1.9.2
-2018-06-30T10:01:01.618Z - normal: Finish init build-worker
-2018-06-30T10:01:01.618Z - normal: Start build-assets in worker
-2018-06-30T10:01:03.238Z - normal: Finish build-assets in worker
-2018-06-30T10:01:03.247Z - normal: Finish building assets
-2018-06-30T10:01:03.297Z - normal: Start building raw assets
-2018-06-30T10:01:03.299Z - normal: Start building plugin scripts
-2018-06-30T10:01:05.778Z - normal: Finish building plugin scripts
-2018-06-30T10:01:05.891Z - normal: Finish building raw assets
-2018-06-30T10:01:05.896Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T10:01:07.065Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T10:01:10.248Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T10:01:10.248Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T10:01:11.022Z - normal: Initializing...
-
-2018-06-30T10:01:11.037Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T10:01:11.064Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-initialization finished
-
-2018-06-30T10:01:11.755Z - normal: open IDE success
-
-2018-06-30T10:01:55.721Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T10:01:55.734Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T10:01:55.735Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T10:01:55.735Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T10:02:45.792Z - normal: Compiled project javascript file successfully
-2018-06-30T10:02:45.793Z - normal: Start building assets
-2018-06-30T10:02:45.794Z - normal: Start spawn build-worker
-2018-06-30T10:02:46.435Z - normal: Finish spawn build-worker
-2018-06-30T10:02:46.435Z - normal: Start init build-worker
-2018-06-30T10:02:48.386Z - normal: 1.9.2
-2018-06-30T10:02:48.660Z - normal: Finish init build-worker
-2018-06-30T10:02:48.661Z - normal: Start build-assets in worker
-2018-06-30T10:02:49.734Z - normal: Finish build-assets in worker
-2018-06-30T10:02:49.739Z - normal: Finish building assets
-2018-06-30T10:02:49.772Z - normal: Start building raw assets
-2018-06-30T10:02:49.773Z - normal: Start building plugin scripts
-2018-06-30T10:02:51.449Z - normal: Finish building plugin scripts
-2018-06-30T10:02:51.788Z - normal: Finish building raw assets
-2018-06-30T10:02:51.792Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T10:02:52.896Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T10:03:12.427Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T10:03:12.428Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T10:03:13.030Z - normal: Initializing...
-
-2018-06-30T10:03:13.045Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T10:03:13.070Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T10:03:13.072Z - normal: initialization finished
-
-2018-06-30T10:03:13.969Z - normal: open IDE success
-
-2018-06-30T10:04:09.712Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T10:04:09.723Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T10:04:09.723Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T10:04:09.724Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T10:04:19.509Z - normal: Compiled project javascript file successfully
-2018-06-30T10:04:19.509Z - normal: Start building assets
-2018-06-30T10:04:19.509Z - normal: Start spawn build-worker
-2018-06-30T10:04:20.251Z - normal: Finish spawn build-worker
-2018-06-30T10:04:20.251Z - normal: Start init build-worker
-2018-06-30T10:04:22.356Z - normal: 1.9.2
-2018-06-30T10:04:22.663Z - normal: Finish init build-worker
-2018-06-30T10:04:22.663Z - normal: Start build-assets in worker
-2018-06-30T10:04:24.228Z - normal: Finish build-assets in worker
-2018-06-30T10:04:24.231Z - normal: Finish building assets
-2018-06-30T10:04:24.266Z - normal: Start building raw assets
-2018-06-30T10:04:24.267Z - normal: Start building plugin scripts
-2018-06-30T10:04:26.196Z - normal: Finish building plugin scripts
-2018-06-30T10:04:26.317Z - normal: Finish building raw assets
-2018-06-30T10:04:26.321Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T10:04:27.490Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T10:08:05.788Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T10:08:05.790Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T10:08:06.171Z - normal: Initializing...
-
-2018-06-30T10:08:06.176Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T10:08:06.199Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T10:08:06.199Z - normal: initialization finished
-
-2018-06-30T10:08:06.800Z - normal: open IDE success
-
-2018-06-30T10:09:08.831Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T10:09:08.845Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T10:09:08.845Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T10:09:08.846Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T10:09:19.702Z - normal: Compiled project javascript file successfully
-2018-06-30T10:09:19.702Z - normal: Start building assets
-2018-06-30T10:09:19.703Z - normal: Start spawn build-worker
-2018-06-30T10:09:20.428Z - normal: Finish spawn build-worker
-2018-06-30T10:09:20.429Z - normal: Start init build-worker
-2018-06-30T10:09:22.657Z - normal: 1.9.2
-2018-06-30T10:09:22.969Z - normal: Finish init build-worker
-2018-06-30T10:09:22.969Z - normal: Start build-assets in worker
-2018-06-30T10:09:24.423Z - normal: Finish build-assets in worker
-2018-06-30T10:09:24.426Z - normal: Finish building assets
-2018-06-30T10:09:24.467Z - normal: Start building raw assets
-2018-06-30T10:09:24.468Z - normal: Start building plugin scripts
-2018-06-30T10:09:26.869Z - normal: Finish building plugin scripts
-2018-06-30T10:09:27.077Z - normal: Finish building raw assets
-2018-06-30T10:09:27.081Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T10:09:28.312Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T10:12:50.921Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T10:12:50.922Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T10:12:51.462Z - normal: Initializing...
-
-2018-06-30T10:12:51.473Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T10:12:51.495Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-initialization finished
-
-2018-06-30T10:12:51.676Z - normal: open IDE success
-
-2018-06-30T10:19:22.288Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T10:19:22.293Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T10:19:22.665Z - normal: Initializing...
-
-2018-06-30T10:19:22.669Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T10:19:22.685Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-initialization finished
-
-2018-06-30T10:19:23.736Z - normal: open IDE success
-
-2018-06-30T10:19:37.039Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T10:19:37.050Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T10:19:37.050Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T10:19:37.052Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T10:19:47.628Z - normal: Compiled project javascript file successfully
-2018-06-30T10:19:47.629Z - normal: Start building assets
-2018-06-30T10:19:47.630Z - normal: Start spawn build-worker
-2018-06-30T10:19:48.370Z - normal: Finish spawn build-worker
-2018-06-30T10:19:48.370Z - normal: Start init build-worker
-2018-06-30T10:19:50.620Z - normal: 1.9.2
-2018-06-30T10:19:50.940Z - normal: Finish init build-worker
-2018-06-30T10:19:50.940Z - normal: Start build-assets in worker
-2018-06-30T10:19:52.568Z - normal: Finish build-assets in worker
-2018-06-30T10:19:52.572Z - normal: Finish building assets
-2018-06-30T10:19:52.611Z - normal: Start building raw assets
-2018-06-30T10:19:52.611Z - normal: Start building plugin scripts
-2018-06-30T10:19:54.585Z - normal: Finish building plugin scripts
-2018-06-30T10:19:54.948Z - normal: Finish building raw assets
-2018-06-30T10:19:54.952Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T10:19:56.077Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T10:20:12.919Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T10:20:12.922Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T10:20:13.454Z - normal: Initializing...
-
-2018-06-30T10:20:13.468Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T10:20:13.491Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T10:20:13.491Z - normal: initialization finished
-
-2018-06-30T10:20:13.982Z - normal: open IDE success
-
-2018-06-30T10:20:33.850Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T10:20:33.850Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T10:20:34.472Z - normal: Initializing...
-
-2018-06-30T10:20:34.499Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T10:20:34.535Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T10:20:34.536Z - normal: initialization finished
-
-2018-06-30T10:20:35.017Z - normal: open IDE success
-
-2018-06-30T10:21:58.629Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T10:21:58.642Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T10:21:58.643Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T10:21:58.645Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T10:22:08.906Z - normal: Compiled project javascript file successfully
-2018-06-30T10:22:08.906Z - normal: Start building assets
-2018-06-30T10:22:08.907Z - normal: Start spawn build-worker
-2018-06-30T10:22:09.665Z - normal: Finish spawn build-worker
-2018-06-30T10:22:09.665Z - normal: Start init build-worker
-2018-06-30T10:22:11.783Z - normal: 1.9.2
-2018-06-30T10:22:12.104Z - normal: Finish init build-worker
-2018-06-30T10:22:12.104Z - normal: Start build-assets in worker
-2018-06-30T10:22:13.510Z - normal: Finish build-assets in worker
-2018-06-30T10:22:13.514Z - normal: Finish building assets
-2018-06-30T10:22:13.548Z - normal: Start building raw assets
-2018-06-30T10:22:13.548Z - normal: Start building plugin scripts
-2018-06-30T10:22:15.596Z - normal: Finish building plugin scripts
-2018-06-30T10:22:15.693Z - normal: Finish building raw assets
-2018-06-30T10:22:15.696Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T10:22:16.843Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T11:04:57.084Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ProgressBar",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T11:04:57.100Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T11:04:57.100Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T11:04:57.104Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T11:05:08.394Z - normal: Compiled project javascript file successfully
-2018-06-30T11:05:08.394Z - normal: Start building assets
-2018-06-30T11:05:08.394Z - normal: Start spawn build-worker
-2018-06-30T11:05:09.080Z - normal: Finish spawn build-worker
-2018-06-30T11:05:09.080Z - normal: Start init build-worker
-2018-06-30T11:05:11.273Z - normal: 1.9.2
-2018-06-30T11:05:11.582Z - normal: Finish init build-worker
-2018-06-30T11:05:11.582Z - normal: Start build-assets in worker
-2018-06-30T11:05:13.106Z - normal: Finish build-assets in worker
-2018-06-30T11:05:13.109Z - normal: Finish building assets
-2018-06-30T11:05:13.149Z - normal: Start building raw assets
-2018-06-30T11:05:13.149Z - normal: Start building plugin scripts
-2018-06-30T11:05:15.395Z - normal: Finish building plugin scripts
-2018-06-30T11:05:15.498Z - normal: Finish building raw assets
-2018-06-30T11:05:15.502Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T11:05:16.778Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T11:06:31.405Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T11:06:31.407Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T11:06:32.120Z - normal: Initializing...
-
-2018-06-30T11:06:32.147Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T11:06:32.169Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-initialization finished
-
-2018-06-30T11:06:32.695Z - normal: open IDE success
-
-2018-06-30T11:09:39.104Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/robCoin/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/robCoin/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "ParticleSystem",
-    "TiledMap",
-    "Spine Skeleton",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "PageView",
-    "PageViewIndicator",
-    "Slider",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "MotionStreak",
-    "DragonBones",
-    "Camera",
-    "Native NetWork"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "60331843-cd45-4a29-845f-a04a25500983"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "robcoin",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
-    "appid": "wx793199d0ca521154",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/robCoin",
-  "projectName": "robcoin",
-  "debugBuildWorker": false
-}
-2018-06-30T11:09:39.121Z - normal: Building /Users/mac/MatchVsGames/robCoin
-2018-06-30T11:09:39.121Z - normal: Destination /Users/mac/MatchVsGames/robCoin/build/wechatgame
-2018-06-30T11:09:39.122Z - normal: Delete /Users/mac/MatchVsGames/robCoin/build/wechatgame/**/*
-2018-06-30T11:10:31.006Z - normal: Compiled project javascript file successfully
-2018-06-30T11:10:31.008Z - normal: Start building assets
-2018-06-30T11:10:31.008Z - normal: Start spawn build-worker
-2018-06-30T11:10:31.597Z - normal: Finish spawn build-worker
-2018-06-30T11:10:31.598Z - normal: Start init build-worker
-2018-06-30T11:10:33.442Z - normal: 1.9.2
-2018-06-30T11:10:33.702Z - normal: Finish init build-worker
-2018-06-30T11:10:33.702Z - normal: Start build-assets in worker
-2018-06-30T11:10:34.934Z - normal: Finish build-assets in worker
-2018-06-30T11:10:34.938Z - normal: Finish building assets
-2018-06-30T11:10:34.979Z - normal: Start building raw assets
-2018-06-30T11:10:34.980Z - normal: Start building plugin scripts
-2018-06-30T11:10:37.100Z - normal: Finish building plugin scripts
-2018-06-30T11:10:37.201Z - normal: Finish building raw assets
-2018-06-30T11:10:37.205Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T11:10:38.269Z - normal: Built to "/Users/mac/MatchVsGames/robCoin/build/wechatgame" successfully
-2018-06-30T11:35:29.946Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T11:35:29.950Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T11:35:30.540Z - normal: Initializing...
-
-2018-06-30T11:35:30.557Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T11:35:30.579Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-initialization finished
-
-2018-06-30T11:35:30.844Z - normal: open IDE success
+2018-08-04T05:44:58.203Z - normal: open IDE success
 
