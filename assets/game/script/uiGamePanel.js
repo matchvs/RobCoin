@@ -44,7 +44,7 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.itemGet, this.itemGet, this);
 
         this.nodeDict["exit"].on("click", this.exit, this);
-        this.anim =  this.nodeDict["scoreGetEffect"].getComponent(cc.Animation);
+        this.anim = this.nodeDict["scoreGetEffect"].getComponent(cc.Animation);
         this.anim.repeatCount = 3;
         this.bgmId = cc.audioEngine.play(this.bgmAudio, true, 0.2);
     },
@@ -54,9 +54,7 @@ cc.Class({
             uiFunc.openUI("uiTip", function(obj) {
                 var uiTip = obj.getComponent("uiTip");
                 if (uiTip) {
-                    if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
-                        uiTip.setData("对手离开了游戏");
-                    }
+                    uiTip.setData("对手离开了游戏");
                 }
             }.bind(this));
         }
