@@ -20,7 +20,7 @@
                 ],
                 "height": 309,
                 "type": "panel",
-                "width": 473
+                "width": 606
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 550,
                 "type": "panel",
-                "width": 473
+                "width": 606
               }
             ],
             "height": 862,
             "type": "dock-v",
-            "width": 473
+            "width": 606
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 593,
                     "type": "panel",
-                    "width": 650
+                    "width": 522
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 593,
                     "type": "panel",
-                    "width": 209
+                    "width": 204
                   }
                 ],
                 "height": 593,
                 "type": "dock-h",
-                "width": 862
+                "width": 729
               },
               {
                 "active": 0,
@@ -71,12 +71,12 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 862
+                "width": 729
               }
             ],
             "height": 862,
             "type": "dock-v",
-            "width": 862
+            "width": 729
           },
           {
             "active": 1,
@@ -102,7 +102,32 @@
         "scene"
       ]
     },
-    "worker": {}
+    "window-1533636652013": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 155,
+      "y": 209,
+      "width": 404,
+      "height": 528,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "package-asset.export"
+            ],
+            "height": 506,
+            "type": "panel",
+            "width": 404
+          }
+        ],
+        "type": "dock-v"
+      },
+      "panels": [
+        "package-asset.export"
+      ]
+    }
   },
   "panels": {
     "sprite-editor": {
@@ -118,8 +143,8 @@
       "height": 466
     },
     "package-asset.export": {
-      "x": 609,
-      "y": 134,
+      "x": 155,
+      "y": 209,
       "width": 404,
       "height": 528
     },
