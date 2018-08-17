@@ -231,7 +231,7 @@ cc.Class({
     },
 
     errorResponse: function(error, msg) {
-        if (error === 1001) {
+        if (error === 1001 || error === 0) {
             uiFunc.openUI("uiTip", function(obj) {
                 var uiTip = obj.getComponent("uiTip");
                 if (uiTip) {
@@ -361,9 +361,9 @@ cc.Class({
             }
             if (info.cpProto.indexOf(GLB.DEAD_EVENT) >= 0) {
                 if (GLB.userInfo.id === cpProto.playerId) {
-                    Game.PlayerManager.self.reborn();
+                    Game.PlayerManager.self.deadFrameEvent();
                 } else {
-                    Game.PlayerManager.rival.reborn();
+                    Game.PlayerManager.rival.deadFrameEvent();
                 }
             }
             if (info.cpProto.indexOf(GLB.ITEM_SPAWN) >= 0) {

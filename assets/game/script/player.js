@@ -113,13 +113,21 @@ cc.Class({
             this.spawnEffect();
         }
         if ((Math.abs(this.node.x) > this.deadLimitX || this.node.y > this.deadCeilY || this.node.y < this.deadFloorY)) {
-            cc.audioEngine.play(this.deadOutsideClip, false, 1);
-            this.dead();
+            if (Game.GameManager.gameState === GameState.Play && GLB.isRoomOwner) {
+                mvs.engine.sendFrameEvent(JSON.stringify({
+                    action: GLB.DEAD_EVENT,
+                    playerId: this.playerId
+                }));
+                cc.audioEngine.play(this.deadOutsideClip, false, 1);
+            }
         } else {
             var trapDetect = dir === DirectState.Right ? this.trapDetectRight : this.trapDetectLeft;
-            if (trapDetect.isInTrap) {
+            if (Game.GameManager.gameState === GameState.Play && GLB.isRoomOwner && trapDetect.isInTrap) {
+                mvs.engine.sendFrameEvent(JSON.stringify({
+                    action: GLB.DEAD_EVENT,
+                    playerId: this.playerId
+                }));
                 cc.audioEngine.play(this.deadHoleClip, false, 1);
-                this.dead();
             }
         }
         // 重置判定
@@ -132,7 +140,7 @@ cc.Class({
     },
 
 
-    dead() {
+    deadFrameEvent() {
         this.isDead = true;
         this.node.anchorX = this.orginAnchorX;
         this.node.anchorY = this.orginAnchorY;
@@ -140,14 +148,9 @@ cc.Class({
         efx.parent = this.node.parent;
         efx.position = this.node.position;
         this.anim.play("die");
-        if (Game.GameManager.gameState === GameState.Play && GLB.isRoomOwner) {
-            setTimeout(function() {
-                mvs.engine.sendFrameEvent(JSON.stringify({
-                    action: GLB.DEAD_EVENT,
-                    playerId: this.playerId
-                }));
-            }.bind(this), 2000);
-        }
+        setTimeout(function() {
+            this.reborn();
+        }.bind(this), 2000);
     },
 
     reborn() {
