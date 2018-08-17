@@ -1,62 +1,56 @@
-2018-08-15T02:18:03.777Z - normal: Load ~/.CocosCreator/settings.json
-2018-08-15T02:18:03.781Z - normal: checking language setting...
-2018-08-15T02:18:03.781Z - normal: Language: zh
-2018-08-15T02:18:04.509Z - success: protocol editor-framework registered
-2018-08-15T02:18:04.509Z - success: protocol app registered
-2018-08-15T02:18:04.510Z - success: protocol theme registered
-2018-08-15T02:18:04.510Z - success: protocol packages registered
-2018-08-15T02:18:04.510Z - success: protocol unpack registerred
-2018-08-15T02:18:04.510Z - success: protocol disable-commonjs registerred
-2018-08-15T02:18:04.730Z - normal: connected!
-2018-08-15T02:18:04.733Z - normal: Check project /Users/mac/MatchVsGithub/RobCoin/RobCoin
-2018-08-15T02:18:04.734Z - normal: Initializing Cocos2d
-2018-08-15T02:18:04.954Z - normal: Initializing Asset Database
-2018-08-15T02:18:04.996Z - success: protocol uuid registerred
-2018-08-15T02:18:04.997Z - success: protocol db registerred
-2018-08-15T02:18:04.997Z - success: protocol thumbnail registerred
-2018-08-15T02:18:04.997Z - normal: Loading editor/builtin packages
-2018-08-15T02:18:05.024Z - success: anysdk loaded
-2018-08-15T02:18:05.149Z - success: assets loaded
-2018-08-15T02:18:05.152Z - success: builder loaded
-2018-08-15T02:18:05.155Z - success: cocos-analytics loaded
-2018-08-15T02:18:05.160Z - success: console loaded
-2018-08-15T02:18:05.198Z - success: fb-instant-games loaded
-2018-08-15T02:18:05.202Z - success: hierarchy loaded
-2018-08-15T02:18:05.207Z - success: inspector loaded
-2018-08-15T02:18:05.209Z - success: keystore loaded
-2018-08-15T02:18:05.213Z - success: node-library loaded
-2018-08-15T02:18:05.215Z - success: package-asset loaded
-2018-08-15T02:18:05.216Z - success: preferences loaded
-2018-08-15T02:18:05.221Z - success: project-exporter loaded
-2018-08-15T02:18:05.239Z - success: project-importer loaded
-2018-08-15T02:18:05.242Z - success: project-settings loaded
-2018-08-15T02:18:05.246Z - success: ui-kit loaded
-2018-08-15T02:18:05.251Z - success: ui-grid loaded
-2018-08-15T02:18:05.256Z - success: scene loaded
-2018-08-15T02:18:05.257Z - success: sprite-editor loaded
-2018-08-15T02:18:05.262Z - success: store loaded
-2018-08-15T02:18:05.268Z - success: timeline loaded
-2018-08-15T02:18:05.268Z - normal: Loading builtin packages
-2018-08-15T02:18:05.272Z - success: asset-db-debugger loaded
-2018-08-15T02:18:05.273Z - success: color-picker loaded
-2018-08-15T02:18:05.276Z - success: package-manager loaded
-2018-08-15T02:18:05.277Z - success: qqplay-adapter loaded
-2018-08-15T02:18:05.283Z - success: sdkbox loaded
-2018-08-15T02:18:05.287Z - success: tester loaded
-2018-08-15T02:18:05.291Z - success: ui-kit-preview-extra loaded
-2018-08-15T02:18:05.294Z - success: ui-kit-preview loaded
-2018-08-15T02:18:05.298Z - success: ui-tree loaded
-2018-08-15T02:18:05.299Z - success: weapp-adapter loaded
-2018-08-15T02:18:06.262Z - normal: Initializing project /Users/mac/MatchVsGithub/RobCoin/RobCoin
-2018-08-15T02:18:06.264Z - normal: Loading packages
-2018-08-15T02:18:06.277Z - success: plugin-matchvs loaded
-2018-08-15T02:18:06.277Z - normal: Watching packages
-2018-08-15T02:18:06.407Z - normal: Run Application
-2018-08-15T02:18:07.552Z - success: preview server running at http://localhost:7457
-2018-08-15T02:18:23.094Z - normal: 1.9.3
-2018-08-15T02:47:02.702Z - error: TypeError: Cannot read property '_userId' of undefined
-    at HTMLElement.updateItemID (packages://ui-tree/widget/id-tree.js:70:32)
-    at HTMLElement.asset-db:asset-uuid-changed (file:///Applications/CocosCreator%201.9.3.app/Contents/Resources/app.asar/editor/builtin/assets/panel/panel.js:1:6588)
-    at EventEmitter.e.on.t (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/polymer-utils.js:1:353)
-    at emitTwo (events.js:111:20)
-    at EventEmitter.emit (events.js:194:7)
+2018-08-17T06:11:28.011Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-17T06:11:28.015Z - normal: checking language setting...
+2018-08-17T06:11:28.015Z - normal: Language: zh
+2018-08-17T06:11:28.888Z - success: protocol editor-framework registered
+2018-08-17T06:11:28.888Z - success: protocol app registered
+2018-08-17T06:11:28.888Z - success: protocol theme registered
+2018-08-17T06:11:28.889Z - success: protocol packages registered
+2018-08-17T06:11:28.889Z - success: protocol unpack registerred
+2018-08-17T06:11:28.889Z - success: protocol disable-commonjs registerred
+2018-08-17T06:11:29.359Z - normal: connected!
+2018-08-17T06:11:29.360Z - normal: Check project /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-17T06:11:29.361Z - normal: Initializing Cocos2d
+2018-08-17T06:11:29.596Z - normal: Initializing Asset Database
+2018-08-17T06:11:29.633Z - success: protocol uuid registerred
+2018-08-17T06:11:29.634Z - success: protocol db registerred
+2018-08-17T06:11:29.634Z - success: protocol thumbnail registerred
+2018-08-17T06:11:29.634Z - normal: Loading editor/builtin packages
+2018-08-17T06:11:29.658Z - success: anysdk loaded
+2018-08-17T06:11:29.780Z - success: assets loaded
+2018-08-17T06:11:29.785Z - success: builder loaded
+2018-08-17T06:11:29.788Z - success: cocos-analytics loaded
+2018-08-17T06:11:29.792Z - success: console loaded
+2018-08-17T06:11:29.827Z - success: fb-instant-games loaded
+2018-08-17T06:11:29.831Z - success: hierarchy loaded
+2018-08-17T06:11:29.836Z - success: inspector loaded
+2018-08-17T06:11:29.838Z - success: keystore loaded
+2018-08-17T06:11:29.843Z - success: node-library loaded
+2018-08-17T06:11:29.845Z - success: package-asset loaded
+2018-08-17T06:11:29.846Z - success: preferences loaded
+2018-08-17T06:11:29.849Z - success: project-exporter loaded
+2018-08-17T06:11:29.868Z - success: project-importer loaded
+2018-08-17T06:11:29.871Z - success: project-settings loaded
+2018-08-17T06:11:29.877Z - success: ui-kit loaded
+2018-08-17T06:11:29.883Z - success: ui-grid loaded
+2018-08-17T06:11:29.889Z - success: scene loaded
+2018-08-17T06:11:29.890Z - success: sprite-editor loaded
+2018-08-17T06:11:29.895Z - success: store loaded
+2018-08-17T06:11:29.901Z - success: timeline loaded
+2018-08-17T06:11:29.902Z - normal: Loading builtin packages
+2018-08-17T06:11:29.907Z - success: asset-db-debugger loaded
+2018-08-17T06:11:29.908Z - success: color-picker loaded
+2018-08-17T06:11:29.913Z - success: package-manager loaded
+2018-08-17T06:11:29.914Z - success: qqplay-adapter loaded
+2018-08-17T06:11:29.923Z - success: sdkbox loaded
+2018-08-17T06:11:29.927Z - success: tester loaded
+2018-08-17T06:11:29.931Z - success: ui-kit-preview-extra loaded
+2018-08-17T06:11:29.935Z - success: ui-kit-preview loaded
+2018-08-17T06:11:29.939Z - success: ui-tree loaded
+2018-08-17T06:11:29.941Z - success: weapp-adapter loaded
+2018-08-17T06:11:31.045Z - normal: Initializing project /Users/mac/MatchVsGithub/RobCoin/RobCoin
+2018-08-17T06:11:31.048Z - normal: Loading packages
+2018-08-17T06:11:31.061Z - success: plugin-matchvs loaded
+2018-08-17T06:11:31.061Z - normal: Watching packages
+2018-08-17T06:11:31.183Z - normal: Run Application
+2018-08-17T06:11:32.168Z - success: preview server running at http://localhost:7461
+2018-08-17T06:11:39.831Z - normal: 1.9.3
