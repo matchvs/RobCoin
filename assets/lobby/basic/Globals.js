@@ -40,6 +40,7 @@ window.GLB = {
     DIRECTION_START_EVENT: "direction_start_event",
     DIRECTION_EVENT: "direction_event",
     DEAD_EVENT: "dead_event",
+    REBORN_EVENT: "reborn_event",
 
     channel: 'MatchVS',
     platform: 'alpha',

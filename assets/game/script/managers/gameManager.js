@@ -366,6 +366,15 @@ cc.Class({
                     Game.PlayerManager.rival.deadFrameEvent();
                 }
             }
+
+            if (info.cpProto.indexOf(GLB.REBORN_EVENT) >= 0) {
+                if (GLB.userInfo.id === cpProto.playerId) {
+                    Game.PlayerManager.self.rebornFrameEvent();
+                } else {
+                    Game.PlayerManager.rival.rebornFrameEvent();
+                }
+            }
+
             if (info.cpProto.indexOf(GLB.ITEM_SPAWN) >= 0) {
                 Game.ItemManager.itemSpawn(cpProto);
             }

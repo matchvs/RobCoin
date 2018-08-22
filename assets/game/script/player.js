@@ -149,15 +149,22 @@ cc.Class({
         efx.position = this.node.position;
         this.anim.play("die");
         setTimeout(function() {
-            this.reborn();
+            if (Game.GameManager.gameState === GameState.Play && GLB.isRoomOwner) {
+                mvs.engine.sendFrameEvent(JSON.stringify({
+                    action: GLB.REBORN_EVENT,
+                    playerId: this.playerId
+                }));
+            }
         }.bind(this), 2000);
     },
 
-    reborn() {
+    rebornFrameEvent() {
         this.isDead = false;
         this.trapDetectLeft.isInTrap = false;
         this.trapDetectRight.isInTrap = false;
         this.node.scale = 1;
+        this.node.anchorX = this.orginAnchorX;
+        this.node.anchorY = this.orginAnchorY;
         if (GLB.isRoomOwner) {
             if (this.playerId === GLB.userInfo.id) {
                 this.node.position = Game.PlayerManager.player1StartPos;
