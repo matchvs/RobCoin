@@ -78,6 +78,10 @@ cc.Class({
     },
 
     itemSpawn(cpProto) {
+        if (this.item) {
+            var temp = this.item;
+            temp.destroy();
+        }
         this.item = cc.instantiate(this.potion);
         this.item.parent = this.node;
         this.item.position = cc.v2(cpProto.posX, cpProto.posY);
@@ -107,6 +111,10 @@ cc.Class({
     },
 
     treasureSpawn(cpProto) {
+        if (this.treasure) {
+            var temp = this.treasure;
+            temp.destroy();
+        }
         this.treasure = cc.instantiate(this.treasureBox);
         this.treasure.parent = this.node;
         this.treasure.position = cc.v2(cpProto.posX, cpProto.posY);
