@@ -142,7 +142,7 @@ cc.Class({
 
     inviteFriend: function() {
         if(window.wx) {
-            wx.shareAppMessage({imageUrl: "https://data.tianziyou.com/matchvsGamesRes/logo/robCoinLogo.png"});
+            wx.shareAppMessage({imageUrl: "https://data.tianziyou.com/matchvsGamesRes/logo/robCoinLogo1.png"});
         }
     }
 });
