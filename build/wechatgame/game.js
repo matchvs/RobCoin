@@ -4,5 +4,5 @@ window.DOMParser = Parser.DOMParser;
 require('libs/wx-downloader.js');
 wxDownloader.REMOTE_SERVER_ROOT = "https://data.tianziyou.com/matchvsGamesRes/robcoin";
 wxDownloader.SUBCONTEXT_ROOT = "";
-require('src/settings.831bb');
-require('main.00c20');
+require('src/settings.80ee4');
+require('main.d44eb');
