@@ -1,5 +1,6 @@
 var uiPanel = require("uiPanel");
 var mvs = require("Matchvs");
+var GLB = require("Glb");
 cc.Class({
     extends: uiPanel,
     properties: {},
@@ -75,7 +76,7 @@ cc.Class({
         create.canWatch = 0;
         create.visibility = 1;
         create.roomProperty = GLB.MAX_PLAYER_COUNT;
-        var result = mvs.engine.createRoom(create, {maxPlayer: GLB.MAX_PLAYER_COUNT});
+        var result = mvs.engine.createRoom(create, { maxPlayer: GLB.MAX_PLAYER_COUNT });
         if (result !== 0) {
             console.log('创建房间失败,错误码:' + result);
         }
@@ -109,6 +110,11 @@ cc.Class({
     },
 
     onDestroy: function() {
+        if (window.wx) {
+            wx.offKeyboardComplete();
+            wx.offKeyboardInput();
+            wx.hideKeyboard();
+        }
         clientEvent.off(clientEvent.eventType.createRoomResponse, this.createRoomResponse, this);
     }
 });

@@ -1,6 +1,6 @@
 var uiPanel = require("uiPanel");
 var mvs = require("Matchvs");
-
+var GLB = require("Glb");
 cc.Class({
     extends: uiPanel,
 
@@ -45,10 +45,8 @@ cc.Class({
     },
 
     getRoomListResponse: function(data) {
-        if (this.rooms) {
-            for (var j = 0; j < this.rooms.length; j++) {
-                this.rooms[j].destroy();
-            }
+        for (var j = 0; j < this.rooms.length; j++) {
+            this.rooms[j].destroy();
         }
         this.rooms = [];
         data.roomInfos.sort(function(a, b) {
@@ -146,6 +144,11 @@ cc.Class({
     },
 
     onDestroy() {
+        if (window.wx) {
+            wx.offKeyboardComplete();
+            wx.offKeyboardInput();
+            wx.hideKeyboard();
+        }
         clearInterval(this.roomRqId);
         clientEvent.off(clientEvent.eventType.getRoomListResponse, this.getRoomListResponse, this);
         clientEvent.off(clientEvent.eventType.joinRoomResponse, this.joinRoomResponse, this);
