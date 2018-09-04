@@ -141,6 +141,9 @@ cc.Class({
 
 
     deadFrameEvent() {
+        if (this.isDead) {
+            return;
+        }
         this.isDead = true;
         this.node.anchorX = this.orginAnchorX;
         this.node.anchorY = this.orginAnchorY;
