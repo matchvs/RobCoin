@@ -32,9 +32,7 @@
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
     "appid": "wx793199d0ca521154",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": ""
+    "orientation": "portrait"
   },
   "xxteaKey": "0a25fc7a-6725-46",
   "zipCompressJs": true
