@@ -22,7 +22,6 @@
   "packageName": "org.cocos2d.RobCoin",
   "privateKey": "",
   "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
     "orientation": "portrait"
   },
   "renderMode": "0",
@@ -30,7 +29,7 @@
   "title": "RobCoin",
   "webOrientation": "auto",
   "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/robcoin",
+    "REMOTE_SERVER_ROOT": "https://imgs.matchvs.com/static/tianziyou/RobCoin",
     "appid": "wx793199d0ca521154",
     "orientation": "portrait"
   },
