@@ -21,7 +21,6 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoomNotify, this);
         clientEvent.on(clientEvent.eventType.kickPlayerResponse, this.kickPlayerResponse, this);
         clientEvent.on(clientEvent.eventType.kickPlayerNotify, this.kickPlayerNotify, this);
-        clientEvent.on(clientEvent.eventType.joinOverResponse, this.joinOverResponse, this);
         clientEvent.on(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoomMedNotify, this);
 
         for (var i = 0; i < GLB.MAX_PLAYER_COUNT; i++) {
@@ -206,5 +205,8 @@ cc.Class({
         clientEvent.off(clientEvent.eventType.joinRoomNotify, this.joinRoomNotify, this);
         clientEvent.off(clientEvent.eventType.leaveRoomResponse, this.leaveRoomResponse, this);
         clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoomNotify, this);
+        clientEvent.off(clientEvent.eventType.kickPlayerResponse, this.kickPlayerResponse, this);
+        clientEvent.off(clientEvent.eventType.kickPlayerNotify, this.kickPlayerNotify, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoomMedNotify, this);
     }
 });
