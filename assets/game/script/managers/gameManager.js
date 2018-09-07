@@ -412,8 +412,17 @@ cc.Class({
                 }
             }
         }
-        Game.PlayerManager.self.rotationSelf();
-        Game.PlayerManager.rival.rotationSelf();
+        if (Game.GameManager.gameState === GameState.Over) {
+            return;
+        }
+        if (Game.PlayerManager) {
+            if (Game.PlayerManager.self) {
+                Game.PlayerManager.self.rotationSelf();
+            }
+            if (Game.PlayerManager.rival) {
+                Game.PlayerManager.rival.rotationSelf();
+            }
+        }
     },
 
     sendReadyMsg: function() {

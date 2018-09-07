@@ -56,12 +56,14 @@ cc.Class({
         clearTimeout(this.tinyId);
         this.node.scale = 0.35;
         this.tinyId = setTimeout(function() {
-            this.node.scale = 1;
-            if (GLB.isRoomOwner && Game.GameManager.gameState !== GameState.Over) {
-                mvs.engine.sendFrameEvent(JSON.stringify({
-                    action: GLB.ITEM_EFFECT_DIS,
-                    playerId: this.playerId
-                }));
+            if (this.node) {
+                this.node.scale = 1;
+                if (GLB.isRoomOwner && Game.GameManager.gameState !== GameState.Over) {
+                    mvs.engine.sendFrameEvent(JSON.stringify({
+                        action: GLB.ITEM_EFFECT_DIS,
+                        playerId: this.playerId
+                    }));
+                }
             }
         }.bind(this), 6000);
     },
