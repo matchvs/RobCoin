@@ -197,9 +197,14 @@ cc.Class({
         if (this.isDead || Game.GameManager.gameState === GameState.Over) {
             return;
         }
-        this.node.rotation = cc.lerp(this.node.rotation, this.targetRotation, 20 * dt);
+        //修改
+        //this.node.rotation = cc.misc.lerp(this.node.rotation, this.targetRotation, 20 * dt);
+        this.node.rotation = this.lerp(this.node.rotation, this.targetRotation, 20 * dt);
     },
 
+    lerp(a,b,r){
+        return a + (b - a) * r;
+    },
     gameOver() {
         var isWin = Game.GameManager.isRivalLeave ? true : Game.GameManager.selfScore > Game.GameManager.rivalScore;
         if (this.playerId !== GLB.userInfo.id) {

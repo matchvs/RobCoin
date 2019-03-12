@@ -4,7 +4,6 @@
   "buildPath": "./build",
   "debug": false,
   "sourceMaps": false,
-  "includeEruda": false,
   "previewWidth": "1280",
   "previewHeight": "720",
   "useDebugKeystore": true,
@@ -12,8 +11,9 @@
   "keystorePassword": "",
   "keystoreAlias": "",
   "keystoreAliasPassword": "",
-  "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
-  "vsVersion": "auto"
+  "vsVersion": "auto",
+  "actualPlatform": "",
+  "embedWebDebugger": false
 }
